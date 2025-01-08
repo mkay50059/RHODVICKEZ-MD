@@ -30,7 +30,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
 Effortlessly elevate your WhatsApp experience with our cutting-edge bot technology! 🎊
 *💡 Tip: Don’t forget to fork the repo and leave a star to show your support! 🌟*
 
-🙌 Thank you for choosing ✦RHODVICKEZ MD✦ MD – your ultimate bot companion! 🎉
+🙌 Thank you for choosing ✦RHODVICKEZ MD✦ – your ultimate bot companion! subscribe on  https://www.youtube.com/@Rhodvick 🎉
         `;
 
         // Send the repository info as a text message
@@ -47,7 +47,7 @@ Effortlessly elevate your WhatsApp experience with our cutting-edge bot technolo
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363200367779016@newsletter',
+                        newsletterJid: '120363284845910703@newsletter',
                         newsletterName: '✦RHODVICKEZ MD✦',
                         serverMessageId: 143
                     }
