@@ -5,7 +5,7 @@ const { runtime } = require('../lib/functions');
 const axios = require('axios');
 
 cmd({
-    pattern: "menu",
+    pattern: "menu2",
     desc: "menu the bot",
     category: "menu",
     react: "💖",
@@ -25,21 +25,21 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *Menu List* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• aimenu
-┃◈┃• anmiemenu
-┃◈┃• convertmenu
-┃◈┃• funmenu
-┃◈┃• dlmenu
-┃◈┃• listcmd
-┃◈┃• mainmenu
-┃◈┃• groupmenu
-┃◈┃• allmenu
-┃◈┃• ownermenu
-┃◈┃• othermenu
-┃◈┃• logo <text>
-┃◈┃• repo
-┃◈└───────────┈⊷
+┃✦╭─────────────·๏
+┃✦┃• aimenu
+┃✦┃• anmiemenu
+┃✦┃• convertmenu
+┃✦┃• funmenu
+┃✦┃• dlmenu
+┃✦┃• listcmd
+┃✦┃• mainmenu
+┃✦┃• groupmenu
+┃✦┃• allmenu
+┃✦┃• ownermenu
+┃✦┃• othermenu
+┃✦┃• logo <text>
+┃✦┃• repo
+┃✦└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
 
@@ -88,32 +88,32 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let dec = `╭━━〔 *Download Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• facebook
-┃◈┃• mediafire
-┃◈┃• tiktok
-┃◈┃• twitter
-┃◈┃• Insta
-┃◈┃• apk
-┃◈┃• img
-┃◈┃• spotify
-┃◈┃• play
-┃◈┃• play2
-┃◈┃• play3
-┃◈┃• tt2
-┃◈┃• audio
-┃◈┃• video
-┃◈┃• video2
-┃◈┃• ytmp3
-┃◈┃• ytmp4
-┃◈┃• song
-┃◈┃• darama
-┃◈┃• git
-┃◈┃• gdrive
-┃◈┃• smovie
-┃◈┃• baiscope 
-┃◈┃• ginisilia 
-┃◈└───────────┈⊷
+┃✦╭─────────────·๏
+┃✦┃• facebook
+┃✦┃• mediafire
+┃✦┃• tiktok
+┃✦┃• twitter
+┃✦┃• Insta
+┃✦┃• apk
+┃✦┃• img
+┃✦┃• spotify
+┃✦┃• play
+┃✦┃• play2
+┃✦┃• play3
+┃✦┃• tt2
+┃✦┃• audio
+┃✦┃• video
+┃✦┃• video2
+┃✦┃• ytmp3
+┃✦┃• ytmp4
+┃✦┃• song
+┃✦┃• darama
+┃✦┃• git
+┃✦┃• gdrive
+┃✦┃• smovie
+┃✦┃• baiscope 
+┃✦┃• ginisilia 
+┃✦└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
 
@@ -155,43 +155,43 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try
        {
         let dec = `╭━━〔 *Group Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• grouplink
-┃◈┃• kickall
-┃◈┃• kickall2
-┃◈┃• kickall3
-┃◈┃• add
-┃◈┃• remove
-┃◈┃• kick
-┃◈┃• promote 
-┃◈┃• demote
-┃◈┃• dismiss 
-┃◈┃• revoke
-┃◈┃• setgoodbye
-┃◈┃• setwelcome
-┃◈┃• delete 
-┃◈┃• getpic
-┃◈┃• ginfo
-┃◈┃• delete 
-┃◈┃• disappear on
-┃◈┃• disappear off
-┃◈┃• disappear 7D,24H
-┃◈┃• allreq
-┃◈┃• updategname
-┃◈┃• updategdesc
-┃◈┃• joinrequests
-┃◈┃• senddm
-┃◈┃• nikal
-┃◈┃• mute
-┃◈┃• unmute
-┃◈┃• lockgc
-┃◈┃• unlockgc
-┃◈┃• invite
-┃◈┃• tag
-┃◈┃• hidetag
-┃◈┃• tagall
-┃◈┃• tagadmins
-┃◈└───────────┈⊷
+┃✦╭─────────────·๏
+┃✦┃• grouplink
+┃✦┃• kickall
+┃✦┃• kickall2
+┃✦┃• kickall3
+┃✦┃• add
+┃✦┃• remove
+┃✦┃• kick
+┃✦┃• promote 
+┃✦┃• demote
+┃✦┃• dismiss 
+┃✦┃• revoke
+┃✦┃• setgoodbye
+┃✦┃• setwelcome
+┃✦┃• delete 
+┃✦┃• getpic
+┃✦┃• ginfo
+┃✦┃• delete 
+┃✦┃• disappear on
+┃✦┃• disappear off
+┃✦┃• disappear 7D,24H
+┃✦┃• allreq
+┃✦┃• updategname
+┃✦┃• updategdesc
+┃✦┃• joinrequests
+┃✦┃• senddm
+┃✦┃• nikal
+┃✦┃• mute
+┃✦┃• unmute
+┃✦┃• lockgc
+┃✦┃• unlockgc
+┃✦┃• invite
+┃✦┃• tag
+┃✦┃• hidetag
+┃✦┃• tagall
+┃✦┃• tagadmins
+┃✦└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
 
@@ -233,30 +233,30 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
 
         let dec = `╭━━〔 *Fun Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• insult
-┃◈┃• pickup
-┃◈┃• ship
-┃◈┃• character
-┃◈┃• hack
-┃◈┃• joke
-┃◈┃• hrt
-┃◈┃• hpy
-┃◈┃• syd
-┃◈┃• anger
-┃◈┃• shy
-┃◈┃• kiss
-┃◈┃• mon
-┃◈┃• cunfuzed
-┃◈┃• setpp
-┃◈┃• hand
-┃◈┃• nikal
-┃◈┃• hold
-┃◈┃• hug
-┃◈┃• nikal
-┃◈┃• hifi
-┃◈┃• poke
-┃◈└───────────┈⊷
+┃✦╭─────────────·๏
+┃✦┃• insult
+┃✦┃• pickup
+┃✦┃• ship
+┃✦┃• character
+┃✦┃• hack
+┃✦┃• joke
+┃✦┃• hrt
+┃✦┃• hpy
+┃✦┃• syd
+┃✦┃• anger
+┃✦┃• shy
+┃✦┃• kiss
+┃✦┃• mon
+┃✦┃• cunfuzed
+┃✦┃• setpp
+┃✦┃• hand
+┃✦┃• nikal
+┃✦┃• hold
+┃✦┃• hug
+┃✦┃• nikal
+┃✦┃• hifi
+┃✦┃• poke
+┃✦└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
 
@@ -297,25 +297,25 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let dec = `╭━━〔 *Other Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• vv
-┃◈┃• pair
-┃◈┃• pair2
-┃◈┃• fact
-┃◈┃• font
-┃◈┃• define
-┃◈┃• news
-┃◈┃• movie
-┃◈┃• weather
-┃◈┃• srepo
-┃◈┃• insult
-┃◈┃• save
-┃◈┃• wikipedia
-┃◈┃• gpass
-┃◈┃• githubstalk
-┃◈┃• yts
-┃◈┃• ytv
-┃◈└───────────┈⊷
+┃✦╭─────────────·๏
+┃✦┃• vv
+┃✦┃• pair
+┃✦┃• pair2
+┃✦┃• fact
+┃✦┃• font
+┃✦┃• define
+┃✦┃• news
+┃✦┃• movie
+┃✦┃• weather
+┃✦┃• srepo
+┃✦┃• insult
+┃✦┃• save
+┃✦┃• wikipedia
+┃✦┃• gpass
+┃✦┃• githubstalk
+┃✦┃• yts
+┃✦┃• ytv
+┃✦└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
 
@@ -356,18 +356,18 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let dec = `╭━━〔 *Main Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• ping
-┃◈┃• live 
-┃◈┃• alive
-┃◈┃• runtime
-┃◈┃• uptime 
-┃◈┃• repo
-┃◈┃• owner
-┃◈┃• menu
-┃◈┃• menu2
-┃◈┃• restart
-┃◈└───────────┈⊷
+┃✦╭─────────────·๏
+┃✦┃• ping
+┃✦┃• live 
+┃✦┃• alive
+┃✦┃• runtime
+┃✦┃• uptime 
+┃✦┃• repo
+┃✦┃• owner
+┃✦┃• menu
+┃✦┃• menu2
+┃✦┃• restart
+┃✦└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
 
@@ -408,25 +408,25 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let dec = `╭━━〔 *Owner Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• owner
-┃◈┃• menu
-┃◈┃• menu2
-┃◈┃• listcmd
-┃◈┃• allmenu
-┃◈┃• repo
-┃◈┃• block
-┃◈┃• unblock
-┃◈┃• fullpp
-┃◈┃• setpp
-┃◈┃• restart
-┃◈┃• shutdown
-┃◈┃• updatecmd
-┃◈┃• alive
-┃◈┃• ping 
-┃◈┃• gjid
-┃◈┃• jid
-┃◈└───────────┈⊷
+┃✦╭─────────────·๏
+┃✦┃• owner
+┃✦┃• menu
+┃✦┃• menu2
+┃✦┃• listcmd
+┃✦┃• allmenu
+┃✦┃• repo
+┃✦┃• block
+┃✦┃• unblock
+┃✦┃• fullpp
+┃✦┃• setpp
+┃✦┃• restart
+┃✦┃• shutdown
+┃✦┃• updatecmd
+┃✦┃• alive
+┃✦┃• ping 
+┃✦┃• gjid
+┃✦┃• jid
+┃✦└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
 
@@ -467,15 +467,15 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let dec = `╭━━〔 *Convert Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• sticker
-┃◈┃• sticker2
-┃◈┃• fancy
-┃◈┃• take
-┃◈┃• tomp3
-┃◈┃• tts
-┃◈┃• trt
-┃◈└───────────┈⊷
+┃✦╭─────────────·๏
+┃✦┃• sticker
+┃✦┃• sticker2
+┃✦┃• fancy
+┃✦┃• take
+┃✦┃• tomp3
+┃✦┃• tts
+┃✦┃• trt
+┃✦└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
 
@@ -517,34 +517,34 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
           let dec = `╭━━〔 *Anime Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• fack
-┃◈┃• dog
-┃◈┃• awoo
-┃◈┃• garl
-┃◈┃• waifu
-┃◈┃• neko
-┃◈┃• megnumin
-┃◈┃• neko
-┃◈┃• maid
-┃◈┃• loli
-┃◈┃• animegirl
-┃◈┃• animegirl
-┃◈┃• animegirl1
-┃◈┃• animegirl2
-┃◈┃• animegirl3
-┃◈┃• animegirl4
-┃◈┃• animegirl5
-┃◈┃• anime1
-┃◈┃• anime1
-┃◈┃• anime2
-┃◈┃• anime3
-┃◈┃• anime4
-┃◈┃• anime5
-┃◈┃• animenews
-┃◈┃• foxgirl
-┃◈┃• naruto
-┃◈└───────────┈⊷
+┃✦╭─────────────·๏
+┃✦┃• fack
+┃✦┃• dog
+┃✦┃• awoo
+┃✦┃• garl
+┃✦┃• waifu
+┃✦┃• neko
+┃✦┃• megnumin
+┃✦┃• neko
+┃✦┃• maid
+┃✦┃• loli
+┃✦┃• animegirl
+┃✦┃• animegirl
+┃✦┃• animegirl1
+┃✦┃• animegirl2
+┃✦┃• animegirl3
+┃✦┃• animegirl4
+┃✦┃• animegirl5
+┃✦┃• anime1
+┃✦┃• anime1
+┃✦┃• anime2
+┃✦┃• anime3
+┃✦┃• anime4
+┃✦┃• anime5
+┃✦┃• animenews
+┃✦┃• foxgirl
+┃✦┃• naruto
+┃✦└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
 
@@ -586,15 +586,15 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let dec = `╭━━〔 *Ai Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• ai
-┃◈┃• gpt
-┃◈┃• meta
-┃◈┃• blackbox
-┃◈┃• gpt4
-┃◈┃• bing
-┃◈┃• copilot
-┃◈└───────────┈⊷
+┃✦╭─────────────·๏
+┃✦┃• ai
+┃✦┃• gpt
+┃✦┃• meta
+┃✦┃• blackbox
+┃✦┃• gpt4
+┃✦┃• bing
+┃✦┃• copilot
+┃✦└───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
 
@@ -622,4 +622,3 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         reply(`${e}`);
     }
 });
-
