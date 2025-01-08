@@ -16,7 +16,7 @@ cmd({
   reply: _0x11eb9d
 }) => {
   if (!_0x216653[0x0]) {
-    return _0x11eb9d("Where is the GitHub link?\n\nExample:\n.gitclone https://github.com/SilvaTechB/silva-spark-md");
+    return _0x11eb9d("Where is the GitHub link?\n\nExample:\n.gitclone https://github.com/Rhodvick/RHODVICKEZ-MD");
   }
   if (!/^(https:\/\/)?github\.com\/.+/.test(_0x216653[0x0])) {
     return _0x11eb9d("⚠️ Invalid GitHub link.");
@@ -36,7 +36,7 @@ cmd({
     }
     let _0x49a379 = _0xe6be44.headers.get("content-disposition");
     let _0x481150 = _0x49a379 ? _0x49a379.match(/filename=(.*)/)[0x1] : _0x16a926 + ".zip";
-    _0x11eb9d("*📥𝘚𝘪𝘭𝘷𝘢 𝘚𝘱𝘢𝘳𝘬 𝘔𝘋 DOWNLOADING REPOSITORY...*\n\n*REPOSITORY:* " + _0x5194b2 + '/' + _0x16a926 + "\n*FILENAME:* " + _0x481150 + "\n\n> *© 𝘚𝘪𝘭𝘷𝘢 𝘚𝘱𝘢𝘳𝘬 𝘔𝘋*");
+    ✦RHODVICKEZ MD✦ DOWNLOADING REPOSITORY...*\n\n*REPOSITORY:* " + _0x5194b2 + '/' + _0x16a926 + "\n*FILENAME:* " + _0x481150 + "\n\n> *© 𝘚𝘪𝘭𝘷𝘢 𝘚𝘱𝘢𝘳𝘬 𝘔𝘋*");
     await _0x359a4d.sendMessage(_0x421a7d, {
       'document': {
         'url': _0x936878
@@ -48,8 +48,8 @@ cmd({
         'forwardingScore': 0x3e7,
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
-          'newsletterJid': "120363200367779016@newsletter",
-          'newsletterName': "SILVA GITHUB CLONE💀",
+          'newsletterJid': "120363284845910703@newsletter",
+          'newsletterName': "✦RHODVICKEZ MD✦ GITHUB CLONE💀",
           'serverMessageId': 0x8f
         }
       }
