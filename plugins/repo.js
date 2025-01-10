@@ -56,13 +56,6 @@ Effortlessly elevate your WhatsApp experience with our cutting-edge bot technolo
             { quoted: mek }
         );
 
-        // Send an audio response (PTT voice note)
-        await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/hpwsi.mp3' },
-            mimetype: 'audio/mp4',
-            ptt: true
-        }, { quoted: mek });
-
     } catch (error) {
         console.error('Error fetching repository data:', error);
         reply(`❌ *Error fetching repository data:* ${error.message}`);
