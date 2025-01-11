@@ -1,35 +1,43 @@
-const axios = require('axios');
+const axios = require("axios");
+const { cmd } = require("../command");
 
-// Function to fetch a Bible verse from the Bible API
-async function fetchBibleVerse(book, chapter, verse) {
-    const url = `https://bible-api.com/${book}%20${chapter}:${verse}`;
+// Command: bible
+cmd({
+    pattern: "bible",
+    desc: "Fetch Bible verses by reference.",
+    category: "fun",
+    react: "📖",
+    filename: __filename
+}, async (conn, mek, m, { args, reply }) => {
     try {
-        const response = await axios.get(url);
-        return response.data.text;
+        // Vérifiez si une référence est fournie
+        if (args.length === 0) {
+            return reply(`⚠️ *Please provide a Bible reference.*\n\n📝 *Example:*\n.bible John 1:1`);
+        }
+
+        // Joindre les arguments pour former la référence
+        const reference = args.join(" ");
+
+        // Appeler l'API avec la référence
+        const apiUrl = `https://bible-api.com/${encodeURIComponent(reference)}`;
+        const response = await axios.get(apiUrl);
+
+        // Vérifiez si la réponse contient des données
+        if (response.status === 200 && response.data.text) {
+            const { reference: ref, text, translation_name } = response.data;
+
+            // Envoyez la réponse formatée avec des emojis
+            reply(
+                `📜 *Bible Verse Found!*\n\n` +
+                `📖 *Reference:* ${ref}\n` +
+                `📚 *Text:* ${text}\n\n` +
+                `🗂️ *Translation:* ${translation_name}\n\n © SUBZERO BIBLE`
+            );
+        } else {
+            reply("❌ *Verse not found.* Please check the reference and try again.");
+        }
     } catch (error) {
-        console.error("Error fetching the Bible verse:", error);
-        return "Sorry, I couldn't find that verse.";
+        console.error(error);
+        reply("⚠️ *An error occurred while fetching the Bible verse.* Please try again.");
     }
-}
-
-// Function to handle the .bible command
-async function handleBibleCommand(command) {
-    const commandParts = command.split(' ');
-    if (commandParts.length !== 2) {
-        return "Invalid format. Use .bible <book> <chapter>:<verse>";
-    }
-
-    const [book, chapterVerse] = commandParts;
-    const [chapter, verse] = chapterVerse.split(':');
-
-    if (!book || !chapter || !verse) {
-        return "Invalid format. Use .bible <book> <chapter>:<verse>";
-    }
-
-    const verseText = await fetchBibleVerse(book, chapter, verse);
-    return `${book} ${chapter}:${verse} - ${verseText}`;
-}
-
-// Example usage
-const command = ".bible john 3:16";
-handleBibleCommand(command).then(console.log);
+});
