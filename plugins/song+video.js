@@ -1,7 +1,7 @@
 
 const {cmd , commands} = require('../command')
 const yts = require('yt-search');
-const fg = require('api-dylux');
+const fg = require('https://api.dreaded.site/api/ytdl/audio?url=${urlYt');
 
 // -------- Song Download --------
 cmd({
