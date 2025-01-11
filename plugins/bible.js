@@ -31,7 +31,7 @@ cmd({
                 `📜 *Bible Verse Found!*\n\n` +
                 `📖 *Reference:* ${ref}\n` +
                 `📚 *Text:* ${text}\n\n` +
-                `🗂️ *Translation:* ${translation_name}\n\n © SUBZERO BIBLE`
+                `🗂️ *Translation:* ${translation_name}\n\n © RHODVICK BIBLE`
             );
         } else {
             reply("❌ *Verse not found.* Please check the reference and try again.");
