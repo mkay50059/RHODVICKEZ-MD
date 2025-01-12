@@ -37,7 +37,7 @@ cmd({
   try {
     if (!q) return reply("Please provide a song title or artist name.");
     let data = await fetchJson(`https://api.giftedtech.web.id/api/search/lyrics?apikey=gifted&query=${q}`);
-    if (!data.result) return reply("No lyrics found for that song.");
+    if (!data.result) return reply("Rhodvick Can't find the lyrics for that song.");
     return reply(data.result);
   } catch (e) {
     console.error(e);
