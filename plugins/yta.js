@@ -6,11 +6,11 @@ const path = require('path');
 const axios = require("axios");
 const fs = require('fs');
 cmd({
-  'pattern': 'play2',
+  'pattern': 'play',
   'react': '🎵',
   'desc': "Download audio from YouTube by searching for keywords.",
   'category': "music",
-  'use': ".play2 <song name or keywords>",
+  'use': ".play <song name or keywords>",
   'filename': __filename
 }, async (_0x1a7c38, _0x4dc8df, _0x1161c6, {
   from: _0x18a278,
@@ -22,7 +22,7 @@ cmd({
     if (!_0x34a504) {
       return _0x2ad359("*Please provide a song name or keywords to search for.*");
     }
-    _0x2ad359("*🎧 Searching for the song...*");
+    _0x2ad359("*🎧 Rhodvick is Searching for the song...*");
     const _0x1774c9 = await yts(_0x34a504);
     if (!_0x1774c9.videos || _0x1774c9.videos.length === 0x0) {
       return _0x2ad359("❌ No results found for \"" + _0x34a504 + "\".");
@@ -57,7 +57,7 @@ cmd({
   'react': '🎵',
   'desc': "Download audio from YouTube by searching for keywords.",
   'category': 'music',
-  'use': ".play3 <song name or keywords>",
+  'use': ".song <song name or keywords>",
   'filename': __filename
 }, async (_0x25a44c, _0x57d711, _0x4439e2, {
   from: _0x3132bb,
@@ -69,7 +69,7 @@ cmd({
     if (!_0x261c6e) {
       return _0x395436("*Please provide a song name or keywords to search for.*");
     }
-    _0x395436("*🎧 Searching for the song...*");
+    _0x395436("*🎧Rhodvick Is Searching for the song...*");
     const _0x5cc50d = await yts(_0x261c6e);
     if (!_0x5cc50d.videos || _0x5cc50d.videos.length === 0x0) {
       return _0x395436("❌ No results found for \"" + _0x261c6e + "\".");
