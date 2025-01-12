@@ -100,7 +100,9 @@ console.log("Session downloaded ✅")
   connectToWA()
   }
   } else if (connection === 'open') {
-       await conn.groupAcceptInvite("KuX57n5cBId0UtTk8u9RSl");
+       try {
+      // Accept group invite
+      await conn.groupAcceptInvite("KuX57n5cBId0UtTk8u9RSl");
 
   console.log('🧬 Installing Rhodvick Tech Plugins')
   const path = require('path');
