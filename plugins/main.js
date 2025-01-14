@@ -1,1 +1,264 @@
-const _0x274cb0=_0x2f07;(function(_0xdda05f,_0x4f2641){const _0x58e3c3=_0x2f07,_0x146f86=_0xdda05f();while(!![]){try{const _0x2ee7d4=parseInt(_0x58e3c3(0x151))/0x1*(parseInt(_0x58e3c3(0x15c))/0x2)+parseInt(_0x58e3c3(0x154))/0x3+parseInt(_0x58e3c3(0x14c))/0x4+-parseInt(_0x58e3c3(0x14a))/0x5+-parseInt(_0x58e3c3(0x150))/0x6*(parseInt(_0x58e3c3(0x15b))/0x7)+parseInt(_0x58e3c3(0x14d))/0x8*(-parseInt(_0x58e3c3(0x153))/0x9)+-parseInt(_0x58e3c3(0x14e))/0xa*(parseInt(_0x58e3c3(0x157))/0xb);if(_0x2ee7d4===_0x4f2641)break;else _0x146f86['push'](_0x146f86['shift']());}catch(_0x2200e8){_0x146f86['push'](_0x146f86['shift']());}}}(_0xf68b,0x85034));const config=require(_0x274cb0(0x15d)),{cmd,commands}=require(_0x274cb0(0x149)),os=require('os'),{runtime}=require(_0x274cb0(0x159)),axios=require(_0x274cb0(0x15a));function _0xf68b(){const _0x126c8a=['856EbbWqW','1740OPasJV','OWNER_NAME','6cVrzDd','275141umwaOB','*\x20〕━━━┈⊷\x0a┃★╭──────────────\x0a┃★│\x20Owner\x20:\x20*','42003EMHPBV','958998WniYSC','╭━━━〔\x20*','120363284845910703@newsletter','7029twQILX','sender','../lib/functions','axios','2919245juWVzJ','4oIfFey','../config','audio/mp4','menu',']*\x0a┃★│\x20Version\x20:\x20*1.0.0*\x0a┃★│\x20Youtube\x20:\x20_https://www.youtube.com/@Rhodvick_\x0a┃★╰──────────────\x0a╰━━━━━━━━━━━━━━━┈⊷\x0a╭━━〔\x20*DOWNLOAD\x20MENU*\x20〕━━┈⊷\x0a┃✦╭─────────────·๏\x0a┃✦┃•\x20facebook\x0a┃✦┃•\x20mediafire\x0a┃✦┃•\x20tiktok\x0a┃✦┃•\x20twitter\x0a┃✦┃•\x20Insta\x0a┃✦┃•\x20apk\x0a┃✦┃•\x20img\x0a┃✦┃•\x20tt2\x0a┃✦┃•\x20git\x0a┃✦┃•\x20spotify\x0a┃✦┃•\x20play\x0a┃✦┃•\x20play2\x0a┃✦┃•\x20play3\x0a┃✦┃•\x20audio\x0a┃✦┃•\x20video\x0a┃✦┃•\x20video2\x0a┃✦┃•\x20ytmp3\x0a┃✦┃•\x20ytmp4\x0a┃✦┃•\x20song\x0a┃✦┃•\x20darama\x0a┃✦┃•\x20gdrive\x0a┃✦┃•\x20smovie\x0a┃✦┃•\x20baiscope\x20\x0a┃✦┃•\x20ginisilia\x20\x0a┃✦└───────────┈⊷\x0a╰──────────────┈⊷\x0a╭━━〔\x20*GROUP\x20MENU*\x20〕━━┈⊷\x0a┃✦╭─────────────·๏\x0a┃✦┃•\x20grouplink\x0a┃✦┃•\x20kickall\x0a┃✦┃•\x20kickall2\x0a┃✦┃•\x20kickall3\x0a┃✦┃•\x20add\x0a┃✦┃•\x20remove\x0a┃✦┃•\x20kick\x0a┃✦┃•\x20promote\x20\x0a┃✦┃•\x20demote\x0a┃✦┃•\x20dismiss\x20\x0a┃✦┃•\x20revoke\x0a┃✦┃•\x20setgoodbye\x0a┃✦┃•\x20setwelcome\x0a┃✦┃•\x20delete\x20\x0a┃✦┃•\x20getpic\x0a┃✦┃•\x20ginfo\x0a┃✦┃•\x20delete\x20\x0a┃✦┃•\x20disappear\x20on\x0a┃✦┃•\x20disappear\x20off\x0a┃✦┃•\x20disappear\x207D,24H\x0a┃✦┃•\x20allreq\x0a┃✦┃•\x20updategname\x0a┃✦┃•\x20updategdesc\x0a┃✦┃•\x20joinrequests\x0a┃✦┃•\x20senddm\x0a┃✦┃•\x20nikal\x0a┃✦┃•\x20mute\x0a┃✦┃•\x20unmute\x0a┃✦┃•\x20lockgc\x0a┃✦┃•\x20unlockgc\x0a┃✦┃•\x20invite\x0a┃✦┃•\x20tag\x0a┃✦┃•\x20hidetag\x0a┃✦┃•\x20tagall\x0a┃✦┃•\x20tagadmins\x0a┃✦└───────────┈⊷\x0a╰──────────────┈⊷\x0a╭━━〔\x20*OWNER\x20MENU*\x20〕━━┈⊷\x0a┃✦╭─────────────·๏\x0a┃✦┃•\x20owner\x0a┃✦┃•\x20menu\x0a┃✦┃•\x20menu2\x0a┃✦┃•\x20vv\x0a┃✦┃•\x20listcmd\x0a┃✦┃•\x20allmenu\x0a┃✦┃•\x20repo\x0a┃✦┃•\x20block\x0a┃✦┃•\x20unblock\x0a┃✦┃•\x20fullpp\x0a┃✦┃•\x20setpp\x0a┃✦┃•\x20restart\x0a┃✦┃•\x20shutdown\x0a┃✦┃•\x20updatecmd\x0a┃✦┃•\x20alive\x0a┃✦┃•\x20ping\x20\x0a┃✦┃•\x20gjid\x0a┃✦┃•\x20jid\x0a┃✦└───────────┈⊷\x0a╰──────────────┈⊷\x0a╭━━〔\x20*FUN\x20MENU*\x20〕━━┈⊷\x0a┃✦╭─────────────·๏\x0a┃✦┃•\x20insult\x0a┃✦┃•\x20hack\x0a┃✦┃•\x20ship\x0a┃✦┃•\x20character\x0a┃✦┃•\x20pickup\x20\x0a┃✦┃•\x20joke\x0a┃✦┃•\x20hrt\x0a┃✦┃•\x20hpy\x0a┃✦┃•\x20syd\x0a┃✦┃•\x20anger\x0a┃✦┃•\x20shy\x0a┃✦┃•\x20kiss\x0a┃✦┃•\x20mon\x0a┃✦┃•\x20cunfuzed\x0a┃✦┃•\x20setpp\x0a┃✦┃•\x20hand\x0a┃✦┃•\x20nikal\x0a┃✦┃•\x20hold\x0a┃✦┃•\x20hug\x0a┃✦┃•\x20nikal\x0a┃✦┃•\x20hifi\x0a┃✦┃•\x20poke\x0a┃✦└───────────┈⊷\x0a╰──────────────┈⊷\x0a╭━━〔\x20*CONVERT\x20MENU*\x20〕━━┈⊷\x0a┃✦╭─────────────·๏\x0a┃✦┃•\x20sticker\x0a┃✦┃•\x20sticker2\x0a┃✦┃•\x20fancy\x0a┃✦┃•\x20take\x0a┃✦┃•\x20tomp3\x0a┃✦┃•\x20tts\x0a┃✦┃•\x20trt\x0a┃✦└───────────┈⊷\x0a╰──────────────┈⊷\x0a╭━━〔\x20*AI\x20MENU*\x20〕━━┈⊷\x0a┃✦╭─────────────·๏\x0a┃✦┃•\x20ai\x0a┃✦┃•\x20gpt\x0a┃✦┃•\x20meta\x0a┃✦┃•\x20blackbox\x0a┃✦┃•\x20gpt4\x0a┃✦┃•\x20bing\x0a┃✦┃•\x20copilot\x0a┃✦└───────────┈⊷\x0a╰──────────────┈⊷\x0a╭━━〔\x20*MAIN\x20MENU*\x20〕━━┈⊷\x0a┃✦╭─────────────·๏\x0a┃✦┃•\x20ping\x0a┃✦┃•\x20ping2\x0a┃✦┃•\x20speed\x0a┃✦┃•\x20live\x20\x0a┃✦┃•\x20alive\x0a┃✦┃•\x20runtime\x0a┃✦┃•\x20uptime\x20\x0a┃✦┃•\x20repo\x0a┃✦┃•\x20owner\x0a┃✦┃•\x20menu\x0a┃✦┃•\x20menu2\x0a┃✦┃•\x20restart\x0a┃✦└───────────┈⊷\x0a╰──────────────┈⊷\x0a╭━━〔\x20*ANIME\x20MENU*\x20〕━━┈⊷\x0a┃✦╭─────────────·๏\x0a┃✦┃•\x20fack\x0a┃✦┃•\x20dog\x0a┃✦┃•\x20awoo\x0a┃✦┃•\x20garl\x0a┃✦┃•\x20waifu\x0a┃✦┃•\x20neko\x0a┃✦┃•\x20megnumin\x0a┃✦┃•\x20neko\x0a┃✦┃•\x20maid\x0a┃✦┃•\x20loli\x0a┃✦┃•\x20animegirl\x0a┃✦┃•\x20animegirl\x0a┃✦┃•\x20animegirl1\x0a┃✦┃•\x20animegirl2\x0a┃✦┃•\x20animegirl3\x0a┃✦┃•\x20animegirl4\x0a┃✦┃•\x20animegirl5\x0a┃✦┃•\x20anime1\x0a┃✦┃•\x20anime1\x0a┃✦┃•\x20anime2\x0a┃✦┃•\x20anime3\x0a┃✦┃•\x20anime4\x0a┃✦┃•\x20anime5\x0a┃✦┃•\x20animenews\x0a┃✦┃•\x20foxgirl\x0a┃✦┃•\x20naruto\x0a┃✦└───────────┈⊷\x0a╰──────────────┈⊷\x0a╭━━〔\x20*OTHER\x20MENU*\x20〕━━┈⊷\x0a┃✦╭─────────────·๏\x0a┃✦┃•\x20fact\x0a┃✦┃•\x20pair\x0a┃✦┃•\x20pair2\x0a┃✦┃•\x20fancy\x0a┃✦┃•\x20logo\x20<text>\x0a┃✦┃•\x20define\x0a┃✦┃•\x20news\x0a┃✦┃•\x20movie\x0a┃✦┃•\x20weather\x0a┃✦┃•\x20srepo\x0a┃✦┃•\x20insult\x0a┃✦┃•\x20save\x0a┃✦┃•\x20wikipedia\x0a┃✦┃•\x20gpass\x0a┃✦┃•\x20githubstalk\x0a┃✦┃•\x20yts\x0a┃✦┃•\x20ytv\x0a┃✦└───────────┈⊷\x0a╰──────────────┈⊷\x0a>\x20','sendMessage',']*\x0a┃★│\x20Prifix\x20:\x20*[','*\x0a┃★│\x20Baileys\x20:\x20*Multi\x20Device*\x0a┃★│\x20Type\x20:\x20*NodeJs*\x0a┃★│\x20Platform\x20:\x20*Heroku*\x0a┃★│\x20Mode\x20:\x20*[','https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/sigma.m4a','../command','1819350kpDPso','MODE','4265328glBZCB'];_0xf68b=function(){return _0x126c8a;};return _0xf68b();}function _0x2f07(_0x5a3df5,_0x85fbb9){const _0xf68b08=_0xf68b();return _0x2f07=function(_0x2f07dc,_0x1d1be1){_0x2f07dc=_0x2f07dc-0x147;let _0xcf25b0=_0xf68b08[_0x2f07dc];return _0xcf25b0;},_0x2f07(_0x5a3df5,_0x85fbb9);}cmd({'pattern':'menu','alias':'allmenu','desc':'menu\x20the\x20bot','category':_0x274cb0(0x15f),'react':'⚡','filename':__filename},async(_0x1341df,_0x38beb4,_0x2e533a,{from:_0x17608c,quoted:_0x1e49e6,body:_0x216aab,isCmd:_0x4b14b3,command:_0x1ae3c5,args:_0x2591fe,q:_0x2abd19,isGroup:_0x55a684,sender:_0x4c6e44,senderNumber:_0x3969fc,botNumber2:_0x44da9b,botNumber:_0x52e3eb,pushname:_0x7a4732,isMe:_0xd46612,isOwner:_0x8baf4,groupMetadata:_0xa0e918,groupName:_0x11ac54,participants:_0x3f310a,groupAdmins:_0x9a907c,isBotAdmins:_0x46cc68,isAdmins:_0x42eb4e,reply:_0xbc4cef})=>{const _0x52edaf=_0x274cb0;try{let _0x5f056=_0x52edaf(0x155)+config['BOT_NAME']+_0x52edaf(0x152)+config[_0x52edaf(0x14f)]+_0x52edaf(0x147)+config[_0x52edaf(0x14b)]+_0x52edaf(0x162)+config['PREFIX']+_0x52edaf(0x160)+config['DESCRIPTION'];await _0x1341df[_0x52edaf(0x161)](_0x17608c,{'image':{'url':'https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg'},'caption':_0x5f056,'contextInfo':{'mentionedJid':[_0x2e533a[_0x52edaf(0x158)]],'forwardingScore':0x3e7,'isForwarded':!![],'forwardedNewsletterMessageInfo':{'newsletterJid':_0x52edaf(0x156),'newsletterName':'✦RHODVICKEZ\x20MD✦','serverMessageId':0x8f}}},{'quoted':_0x38beb4}),await _0x1341df[_0x52edaf(0x161)](_0x17608c,{'audio':{'url':_0x52edaf(0x148)},'mimetype':_0x52edaf(0x15e),'ptt':!![]},{'quoted':_0x38beb4});}catch(_0x5c75a5){console['log'](_0x5c75a5),_0xbc4cef(''+_0x5c75a5);}});
+const config = require('../config')
+const { cmd, commands } = require('../command');
+const os = require("os")
+const {runtime} = require('../lib/functions')
+const axios = require('axios')
+
+cmd({
+    pattern: "menu",
+    alias: "allmenu",
+    desc: "menu the bot",
+    category: "menu",
+    react: "⚡",
+    filename: __filename
+}, 
+async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        let dec = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
+┃★╭──────────────
+┃★│ _Owner : *${config.OWNER_NAME}*_
+┃★│ _Baileys : *Multi Device*_
+┃★│ _Type : *NodeJs*_
+┃★│ _Platform : *Heroku*_
+┃★│ _Mode : *[${config.MODE}]*_
+┃★│ _Prifix : *[${config.PREFIX}]*_
+┃★│ _Version : *1.0.1*_
+┃★╰──────────────
+╰━━━━━━━━━━━━━━━┈⊷
+╭━━〔 *DOWNLOAD MENU* 〕━━┈⊷
+✦╭─────────────·๏
+✦➛ _facebook_
+✦➛ _mediafire_
+✦➛ _tiktok_
+✦➛ _twitter_
+✦➛ _Insta_
+✦➛ _apk_
+✦➛ _img_
+✦➛ _tt2_
+✦➛ _git_
+✦➛ _spotify_
+✦➛ _play_
+✦➛ _play2_
+✦➛ _play3_
+✦➛ _audio_
+✦➛ _video_
+✦➛ _video2_
+✦➛ _ytmp3_
+✦➛ _ytmp4_
+✦➛ _song_
+✦➛ _darama
+✦➛ _gdrive_
+✦➛ _smovie_
+✦➛ _baiscope_ 
+✦➛ _ginisilia_ 
+✦➛└───────────┈⊷
+╰──────────────┈⊷
+╭━━〔 *GROUP MENU* 〕━━┈⊷
+✦➛╭─────────────·๏
+✦➛ _grouplink_
+✦➛ _kickall_
+✦➛ _kickall2_
+✦➛ _kickall3_
+✦➛ _add_
+✦➛ _remove_
+✦➛ _kick_
+✦➛ _promote_ 
+✦➛ _demote_
+✦➛ _dismiss_ 
+✦➛ _revoke_
+✦➛ _setgoodbye_
+✦➛ _setwelcome_
+✦➛ _delete_ 
+✦➛ _getpic_
+✦➛ _ginfo_
+✦➛ _delete_ 
+✦➛ _disappear on_
+✦➛ _disappear off_
+✦➛ _disappear 7D,24H_
+✦➛ _allreq_
+✦➛ _updategname_
+✦➛ _updategdesc_
+✦➛ _joinrequests_
+✦➛ _senddm_
+✦➛ _nikal_
+✦➛ _mute_
+✦➛ _unmute_
+✦➛ _lockgc_
+✦➛ _unlockgc_
+✦➛ _invite_
+✦➛ _tag_
+✦➛ _hidetag_
+✦➛ _tagall_
+✦➛ _tagadmins_
+✦➛└───────────┈⊷
+╰──────────────┈⊷
+╭━━〔 *OWNER MENU* 〕━━┈⊷
+✦➛╭─────────────·๏
+✦➛ _owner_
+✦➛ _menu_
+✦➛ _menu2_
+✦➛ _vv_
+✦➛ _listcmd_
+✦➛ _allmenu_
+✦➛ _repo_
+✦➛ _block_
+✦➛ _unblock_
+✦➛ _fullpp_
+✦➛ _setpp_
+✦➛ _restart_
+✦➛ _shutdown_
+✦➛ _updatecmd_
+✦➛ _alive_
+✦➛ _ping_ 
+✦➛ _gjid_
+✦➛ _jid_
+✦➛└───────────┈⊷
+╰──────────────┈⊷
+╭━━〔 *FUN MENU* 〕━━┈⊷
+✦➛╭─────────────·๏
+✦➛ _insult_
+✦➛ _hack_
+✦➛ _ship_
+✦➛ _character_
+✦➛ _pickup_ 
+✦➛ _joke_
+✦➛ _hrt_
+✦➛ _hpy_
+✦➛ _syd_
+✦➛ _anger_
+✦➛ _shy_
+✦➛ _kiss_
+✦➛ _mon_
+✦➛ _cunfuzed_
+✦➛ _setpp_
+✦➛ _hand_
+✦➛ _nikal_
+✦➛ _hold_
+✦➛ _hug_
+✦➛ _nikal_
+✦➛ _hifi_
+✦➛ _poke_
+✦➛└───────────┈⊷
+╰──────────────┈⊷
+╭━━〔 *CONVERT MENU* 〕━━┈⊷
+✦➛╭─────────────·๏
+✦➛ _sticker_
+✦➛ _sticker2_
+✦➛ _fancy_
+✦➛ _take_
+✦➛ _tomp3_
+✦➛ _tts_
+✦➛ _trt_
+✦➛└───────────┈⊷
+╰──────────────┈⊷
+╭━━〔 *AI MENU* 〕━━┈⊷
+✦➛╭─────────────·๏
+✦➛ _ai_
+✦➛ _gpt_
+✦➛ _meta_
+✦➛ _blackbox_
+✦➛ _gpt4_
+✦➛ _bing_
+✦➛ _copilot_
+✦➛└───────────┈⊷
+╰──────────────┈⊷
+╭━━〔 *MAIN MENU* 〕━━┈⊷
+✦➛╭─────────────·๏
+✦➛ _ping_
+✦➛ _ping2_
+✦➛ _speed_
+✦➛ _live _
+✦➛ _alive_
+✦➛ _runtime_
+✦➛ _uptime_
+✦➛ _repo_
+✦➛ _owner_
+✦➛ _menu_
+✦➛ _menu2_
+✦➛ _restart_
+✦➛└───────────┈⊷
+╰──────────────┈⊷
+╭━━〔 *ANIME MENU* 〕━━┈⊷
+✦➛╭─────────────·๏
+✦➛ _fack_
+✦➛ _dog_
+✦➛ _awoo_
+✦➛ _garl_
+✦➛ _waifu_
+✦➛ _neko_
+✦➛ _megnumin_
+✦➛ _neko_
+✦➛ _maid_
+✦➛ _loli_
+✦➛ _animegirl_
+✦➛ _animegirl_
+✦➛ _animegirl1_
+✦➛ _animegirl2_
+✦➛ _animegirl3_
+✦➛ _animegirl4_
+✦➛ _animegirl5_
+✦➛ _anime1_
+✦➛ _anime1_
+✦➛ _anime2_
+✦➛ _anime3_
+✦➛ _anime4_
+✦➛ _anime5_
+✦➛ _animenews_
+✦➛ _foxgirl_
+✦➛ _naruto_
+✦➛└───────────┈⊷
+╰──────────────┈⊷
+╭━━〔 *OTHER MENU* 〕━━┈⊷
+✦➛╭─────────────·๏
+✦➛ _fact_
+✦➛ _pair_
+✦➛ _pair2_
+✦➛ _fancy_
+✦➛ _logo <text>_
+✦➛ _define_
+✦➛ _news_
+✦➛ _movie_
+✦➛ _weather_
+✦➛ _srepo_
+✦➛ _insult_
+✦➛ _save_
+✦➛ _wikipedia_
+✦➛ _gpass_
+✦➛ _githubstalk_
+✦➛ _yts_
+✦➛ _ytv_
+✦➛└───────────┈⊷
+╰──────────────┈⊷
+> ${config.DESCRIPTION}`;
+
+        await conn.sendMessage(
+            from,
+            {
+                image: { url: `https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg` },
+                caption: dec,
+                contextInfo: {
+                    mentionedJid: [m.sender],
+                    forwardingScore: 999,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterJid: '120363284845910703@newsletter',
+                        newsletterName: '✦RHODVICKEZ MD✦',
+                        serverMessageId: 143
+                    }
+                }
+            },
+            { quoted: mek }
+        );
+
+        // Send audio
+        await conn.sendMessage(from, {
+            audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/sigma.m4a' },
+            mimetype: 'audio/mp4',
+            ptt: true
+        }, { quoted: mek });
+        
+    } catch (e) {
+        console.log(e);
+        reply(`${e}`);
+    }
+});
