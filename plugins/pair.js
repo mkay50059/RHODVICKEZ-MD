@@ -11,7 +11,7 @@ cmd({
   'react': '🔄',
   'desc': "pair",
   'category': "download",
-  'use': ".pair +2637197473XXX",
+  'use': ".pair +254115408XXX",
   'filename': __filename
 }, async (_0x53ef81, _0x3fcf12, _0x1cac84, {
   from: _0x2eaa93,
@@ -28,7 +28,7 @@ cmd({
     if (!_0x283a2f) {
       return await _0x20e232("*Example - :* .pair +254115408XXX");
     }
-    await _0x20e232("*Rhodvick is generaying your pairing code...*");
+    await _0x20e232("*Rhodvick is generating your pairing code...*");
     const _0x4504a8 = await fetchJson("https://power-session.silvatechinc.my.id/pair/code?number=" + _0x283a2f);
     const _0x4bc4f7 = _0x4504a8.code;
     await _0x1cac84.reply('' + _0x4bc4f7);
@@ -40,11 +40,11 @@ cmd({
 });
 cmd({
   'pattern': 'pair2',
-  'alias': ['getpair2', "clone2"],
+  'alias': ['getpair2', "clone2" "p"],
   'react': '🔄',
   'desc': "pair",
   'category': 'download',
-  'use': ".pair +2637196473XXX",
+  'use': ".pair +254115408XXX",
   'filename': __filename
 }, async (_0x44077a, _0x16a498, _0x33b7ac, {
   from: _0x2edf8e,
