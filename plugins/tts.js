@@ -14,7 +14,7 @@ cmd({
 async (conn, mek, m, { from, q, reply }) => {
     try {
         const args = q.split(' ');
-        if (args.length < 2) return reply("❗ Please provide a language code and text. Usage: .translate [language code] [text]");
+        if (args.length < 2) return reply("❗ Please give Rhodvick a language code and text. Usage: .translate [language code] [text]");
 
         const targetLang = args[0];
         const textToTranslate = args.slice(1).join(' ');
@@ -24,7 +24,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const response = await axios.get(url);
         const translation = response.data.responseData.translatedText;
 
-        const translationMessage = `> *SILVA SPARK TRANSLATION*
+        const translationMessage = `> *RHODVICK TECH-TRANSLATION*
 
 > 🔤 *Original*: ${textToTranslate}
 
@@ -35,7 +35,7 @@ async (conn, mek, m, { from, q, reply }) => {
         return reply(translationMessage);
     } catch (e) {
         console.log(e);
-        return reply("⚠️ An error occurred data while translating the your text. Please try again later🤕");
+        return reply("⚠️Rhodvick experienced An error while translating your text. Please try again later🤕");
     }
 });
 
