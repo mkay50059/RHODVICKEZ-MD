@@ -137,7 +137,7 @@ cmd({
         'isForwarded': true,
         'forwardedNewsletterMessageInfo': {
           'newsletterJid': "120363284845910703@newsletter",
-          'newsletterName': "Jawad Tech X ✻",
+          'newsletterName': "Rhodvick Tech ✻",
           'serverMessageId': 0x3e7
         },
         'externalAdReply': {
@@ -189,12 +189,12 @@ cmd({
               'isForwarded': true,
               'forwardedNewsletterMessageInfo': {
                 'newsletterJid': "120363284845910703@newsletter",
-                'newsletterName': "Jawad Tech X ✻",
+                'newsletterName': "Rhodvick Tech ✻",
                 'serverMessageId': 0x3e7
               },
               'externalAdReply': {
-                'title': "Jawad Tech X",
-                'body': "Jawad Tech X BOT",
+                'title': "Rhodvick Tech",
+                'body': "Rhodvick Tech BOT",
                 'mediaType': 0x1,
                 'sourceUrl': _0x274d52.url,
                 'thumbnailUrl': _0x274d52.thumbnail,
@@ -234,7 +234,7 @@ cmd({
                 'isForwarded': true,
                 'forwardedNewsletterMessageInfo': {
                   'newsletterJid': '120363284845910703@newsletter',
-                  'newsletterName': "Jawad Tech X ✻",
+                  'newsletterName': "Rhodvick Tech ✻",
                   'serverMessageId': 0x3e7
                 },
                 'externalAdReply': {
@@ -420,7 +420,7 @@ cmd({
                 'isForwarded': true,
                 'forwardedNewsletterMessageInfo': {
                   'newsletterJid': '120363284845910703@newsletter',
-                  'newsletterName': "Jawad Tech X ✻",
+                  'newsletterName': "Rhodvick Tech ✻",
                   'serverMessageId': 0x3e7
                 },
                 'externalAdReply': {
@@ -532,7 +532,7 @@ cmd({
                     },
                     'mimetype': "video/mp4",
                     'fileName': _0x37a988.title + '.mp4',
-                    'caption': "\n> *© Powered By Jawad TechX*\n",
+                    'caption': "\n> *© Powered By Rhodvick Tech*\n",
                     'contextInfo': {
                       'mentionedJid': ["923000000000@s.whatsapp.net"],
                       'groupMentions': [],
