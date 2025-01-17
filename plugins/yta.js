@@ -155,8 +155,8 @@ function _0x5db573(_0x4cc2ca, _0x5c1206, _0x4f9aa0, _0x5b2f2b, _0x441314) {
   return _0x174d(_0x441314 + 0x172, _0x5c1206);
 }
 const _0x188f55 = {
-  pattern: "p",
-  alias: ["audio3", "play3"],
+  pattern: "play",
+  alias: ["song", "play3"],
   desc: "Download Song / Video"
 };
 function _0x174d(_0x5ab802, _0x1f65d0) {
@@ -208,7 +208,7 @@ cmd(_0x188f55, async (_0x252b94, _0x677a23, _0x12d5b8, {
     }
     const _0x3d4a48 = await yts(_0x4309a9);
     const _0x54dc68 = _0x3d4a48.videos[0];
-    let _0x49e7f0 = "\n*╭━━〔 RHODVICKEZ-MDMUSIC DOWNLOADER 〕━━┈⊷*\n        \n        \n> *`➤ Title` :* " + _0x54dc68.title + "\n\n> *`➤ Views` :* " + _0x54dc68.views + "\n\n> *`➤ DESCRIPTION`:* " + _0x54dc68.description + "\n\n> *`➤ TIME`:* " + _0x54dc68.timestamp + "\n\n> *`➤ AGO`:* " + _0x54dc68.ago + "\n\n*◄❪ 🅁ᴇᴘʟʏ ᴛʜᴇ ɴᴜᴍʙᴇʀ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ✦ ❫►*\n\n1. *🄰ᴜᴅɪᴏ 🎧*\n2. *🄳ᴏᴄᴜᴍᴇɴᴛ 🗂️*\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ Rhodvick Tech♡*\n╰─────═━┈┈━═──━┈⊷";
+    let _0x49e7f0 = "\n*╭━━〔 RHODVICKEZ-MD MUSIC DOWNLOADER 〕━━┈⊷*\n        \n        \n> *`➤ Title` :* " + _0x54dc68.title + "\n\n> *`➤ Views` :* " + _0x54dc68.views + "\n\n> *`➤ DESCRIPTION`:* " + _0x54dc68.description + "\n\n> *`➤ TIME`:* " + _0x54dc68.timestamp + "\n\n> *`➤ AGO`:* " + _0x54dc68.ago + "\n\n*◄❪ 🅁ᴇᴘʟʏ ᴛʜᴇ ɴᴜᴍʙᴇʀ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ✦ ❫►*\n\n1. *🄰ᴜᴅɪᴏ 🎧*\n2. *🄳ᴏᴄᴜᴍᴇɴᴛ 🗂️*\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ Rhodvick Tech♡*\n╰─────═━┈┈━═──━┈⊷";
     const _0x564964 = {
       url: _0x54dc68.thumbnail
     };
