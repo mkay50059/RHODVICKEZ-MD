@@ -1,387 +1,307 @@
+(function (_0x3b4b57, _0x32d9b5) {
+  const _0x146856 = _0x3b4b57();
+  while (true) {
+    try {
+      const _0x28003d = parseInt(_0x174d(406, 0x502)) / 1 * (-parseInt(_0x174d(570, 0x59f)) / 2) + -parseInt(_0x174d(653, 0x6f1)) / 3 + -parseInt(_0x174d(340, 0x314)) / 4 * (-parseInt(_0x174d(393, 0x23e)) / 5) + -parseInt(_0x174d(663, 0x234)) / 6 + -parseInt(_0x174d(506, 0x2d8)) / 7 + parseInt(_0x174d(290, 0x495)) / 8 + parseInt(_0x174d(524, 0xb0)) / 9 * (parseInt(_0x174d(283, 0x2f)) / 10);
+      if (_0x28003d === _0x32d9b5) {
+        break;
+      } else {
+        _0x146856.push(_0x146856.shift());
+      }
+    } catch (_0xd7b6ad) {
+      _0x146856.push(_0x146856.shift());
+    }
+  }
+})(_0x17f8, 304086);
+const _0x44c50b = function () {
+  const _0x4d4b7f = {
+    GbDqO: function (_0x3ad1ad, _0x20966c) {
+      return _0x3ad1ad === _0x20966c;
+    },
+    fczkE: "gYKEm",
+    wMHrD: "ZmFcO"
+  };
+  _0x4d4b7f.GGBsj = "TUHyu";
+  _0x4d4b7f.ULeGr = function (_0x29630b, _0x34000b) {
+    return _0x29630b !== _0x34000b;
+  };
+  _0x4d4b7f.kdykF = "QxiKe";
+  _0x4d4b7f.NDcTt = "ekApe";
+  let _0x554b78 = true;
+  return function (_0x4c0b1c, _0x2801db) {
+    const _0x4edec7 = {
+      'cUcuO': function (_0x5f3119, _0x222212) {
+        return _0x5f3119 === _0x222212;
+      },
+      'BrJEI': "gYKEm",
+      'yAcqd': "ZmFcO",
+      'QMXnd': function (_0xe613a1, _0x50c63c) {
+        return _0xe613a1 === _0x50c63c;
+      },
+      'UNQkb': _0x4d4b7f.GGBsj
+    };
+    if (_0x4d4b7f.ULeGr(_0x4d4b7f.kdykF, _0x4d4b7f.NDcTt)) {
+      const _0x56ad57 = _0x554b78 ? function () {
+        if (_0x2801db) {
+          if (_0x4edec7.UNQkb === _0x4edec7.UNQkb) {
+            const _0x24eeed = _0x2801db.apply(_0x4c0b1c, arguments);
+            _0x2801db = null;
+            return _0x24eeed;
+          } else {
+            const _0x224d00 = _0x4f2e60 ? function () {
+              if (_0x129eef) {
+                const _0x54a583 = _0x51be0a.apply(_0x3132d6, arguments);
+                _0x527e72 = null;
+                return _0x54a583;
+              }
+            } : function () {};
+            _0x1638c7 = false;
+            return _0x224d00;
+          }
+        }
+      } : function () {};
+      _0x554b78 = false;
+      return _0x56ad57;
+    } else {
+      if (_0x48bed6) {
+        const _0x514a8d = _0x31f99b.apply(_0x533bb5, arguments);
+        _0x196974 = null;
+        return _0x514a8d;
+      }
+    }
+  };
+}();
+const _0x51f5d6 = _0x44c50b(this, function () {
+  return _0x51f5d6.toString().search("(((.+)+)+)+$").toString().constructor(_0x51f5d6).search("(((.+)+)+)+$");
+});
+function _0x17f8() {
+  const _0x4d679a = ["ᴛ ✦ ❫", 'SJeNm', 'url', 'hDuUQ', "lect ", '610100wEypAV', "ʙʏ sɪ", 'MhqvX', 'esDtK', 'QUYtV', 'FeDQC', 'uFrdO', '347128eGoqkf', "`➤ AG", 'ey=', 'uYTuc', " *`➤ ", 'rOafV', 'eroku', 'iPSll', 'uQXwG', 'y-9', 'Olrro', 'key', 'MylDT', "〔 SIL", 'ZmFcO', 'UoMeP', 'oIOMC', 'XegOY', 'GkdTU', '/api/', 'DpYlk', 'ILENT', 'RxejQ', 'CQgNs', 'image', 'ekMvs', 'mmand', 'RDnVx', 'HYgzy', 'ZELiC', 'NDcTt', '://ma', '-site', 'ekApe', 'ME`:*', '432💚*', 'ItKJE', 'NjsbZ', 'oUrl=', " Titl", 'ZbdtE', 'FvUkj', '-Ofc-', '┈━═──', 'chain', 'aRnyp', '──═━┈', " Vide", 'desc', 'SszIu', '4nvZcEe', 'XUiUK', "ᴅɪᴏ 🎧", 'mxKVt', "ion *", 'tion', " BY S", 'pwdFm', 'mOfZW', '&apik', "`➤ DE", 'kHnQB', 'QFRIo', "ᴍᴇɴᴛ ", 'SPfrt', 'ago', 'qFKRr', 'funct', 'excep', 'UFrdv', "\n\n*◄❪", 'ion', 'lvnKV', 'kBKGd', 'FJusC', 'downl', 'dITtd', 'cqnwR', 'juvjw', 'ZQMAj', 'UpFnp', 'YjXgS', 'ructo', 'IldfH', 'Npqln', '0-9a-', 'text', 'bqxvJ', "oad S", "`➤ Vi", 'MdelN', 'wDhAC', 'descr', 'aId', 'ing', 'TUHyu', 'DeBqz', "ile p", 'ʟᴏᴠᴇʀ', 'bind', 'gyaJG', 'cbjqP', 'shrNe', '459890OgjgkG', 'ksAXs', 'info', 'vSrHx', '(((.+', 'JWmeK', 'arch', 'iNEyP', 'GGBsj', 'error', '-6bfc', 'XEoXs', 'SAtXp', '6282eGNEdf', 'eapUr', 'xtInf', 'ZEMph', 'patte', 'kZfMW', 'capti', 'type', 'Yhtht', 'const', 'log', 'QlOff', 'YOuNa', "\\( *\\", 'be0e1', 'lengt', 'VIhZm', 'Dl-Ke', "ews` ", 'nQGEO', "ᴀᴛ ʏᴏ", " Plea", "\n*╭━━", 'ction', 'xzaHy', 'ytmp3', 'zQuqD', 'egRpD', 'a-zA-', 'TDauG', 'mimet', '../li', 'GysSA', '*(?:[', 'yt-se', 'SCRIP', 'jUspP', 'fLEJo', 'jkGqB', 'zlBRq', 'Downl', 'NHnbc', 'ype', 'use', 'app.c', 'ame', "An er", 'conso', "ed wh", 'THpaw', "id op", 'nkOQi', 'bfEbs', 'Title', '../co', 'st.', "O`:* ", 'UNAAu', 'HjFWZ', 'dAuYZ', 'FVsgM', 'qrizH', "`➤ TI", 'zA-Z_', 'xeZXo', 'mGgCU', 'PZsla', 'KVaNZ', 'kzZcn', '$]*)', '⁴³²♡*', 'table', 'puKWF', 'Qthzp', "tion ", "ᴜ ᴡᴀɴ", 'WQhRY', 'bpaDg', 'xcVWH', "ʏ ᴛʜᴇ", 'oad', 'uJUGJ', 'apply', 'exten', "e pro", "DER 〕", 'pTSkK', 'reque', 'XVxXJ', 'psert', "` :* ", 'tion.', 'snVbC', 'iptio', 'quote', 'Pleas', 'FQKow', 'LqtEY', 'pxUyc', 'LZiMx', '2396933AKUeVP', 'rmvie', 'JLWEV', 'sendM', " *ᴘᴏᴡ", "ong /", 'QeOkH', 'GanxW', 'qtKRe', 'QxiKe', 'iOEGb', 'Song-', 'react', 'ENT-S', 'tcmlm', 'TION`', 'kxBuv', 'filen', '171NPvPQB', 'EViih', 'QBuJm', 'nail', '/mpeg', 'undef', 'kdykF', 'BrJEI', 'RwulZ', 'trim', '*🄳ᴏᴄᴜ', 'objec', 'ges.u', 'xtMes', 'TkGkD', 'FxwKu', 'vJzdP', "se se", 'PJyGU', 'JcPeG', 'YgqKA', "IC DO", "vide ", 'kKFYR', 'yBmOu', 'kBvNW', " 🅁ᴇᴘʟ", 'toStr', 'OTooI', 'proto', 'messa', 'MhZhL', 'strin', 'https', 'jDsMD', 'trace', 'dedTe', 'ined', 'xpFPt', 'zWnjb', 'oedko', 'essag', 'VGTfp', 'OBX-M', 'ccurr', ":* ", '122zNZLXX', 'setIn', 'SfOqv', 'song3', 'BPVCK', "\n    ", 'WERED', 'HLZqJ', '━┈⊷', 'Z_$][', 'PTriT', 'nzDot', 'sage', 'ULeGr', 'bLCub', 'ZBHqB', "sing ", 'rCzYg', 'wbxNd', 'stanz', "\n╰───", "your ", "   \n>", 'wCpOZ', "►*\n\n1", 'to__', 'eyNPC', 'jnJgO', 'le.', "> *PO", 'LcPoh', 'afVrD', 'KSFkU', 'rHvTD', 'TmyOE', 'categ', ". *🄰ᴜ", 'AOGor', 'QMXnd', 'UNQkb', 'yqaml', 'zlMXC', 'c-api', 'aVCuV', 'test', '8f6.h', 'RPAnJ', 'lzKee', '?vide', 'init', 'LqOnc', 'bnDBb', "ᴇʀ ᴡʜ", 'GbDqO', 'dl_li', 'AhCrE', '.mp3', 'GOMmU', 'aTUDq', 'MvLWx', '__pro', 'roces', 'vaVlO', 'conte', 'sfedJ', "a tit", 'ixqQZ', 'terva', 'BJBtN', 'WzxFE', 'VnBHh', 'NXQHv', 'ory', "     ", "ᴇʀᴇᴅ ", 'nu-of', 'searc', 'tmnES', 'BfFoY', 'Mksnw', 'title', 'FgKby', "    \n", '777624fLMLyV', 'MWXkB', 'yAcqd', 'input', 'LGMpy', 'dpOQY', 'DsUIa', 'PyxfR', 'ges', "D MUS", '33864XSqxwZ', 'cPFlD', 'WNLOA', 'geWcB', 'kGHOZ', 'play3', "ʟᴇɴᴛ ", "ror o", 'alias', 'warn', 'cUcuO', 'zmaKR', 'qHugU', 'data', 'Inval', 'video', 'ypckn', 'fczkE', 'pJaYt', ')+)+)', 'NmoBD', 'MmCqy', "a val", 'ynDgv', '━━┈⊷*', 'zkMUC', "\\+\\+ ", 'mYJEK', 'idyrR', 'WdNZE', 'LOVER', 'Manul', 'pxzWn', 'tamp', 'views', 'times', 'wMHrD', 'UDeWU', 'thumb', 'b/fun', 'pldaH', "*\n2. ", 'gYKEm', 'audio', "🗂️*\n\n>", 'NeVPA', '.play', "\n\n> *", " ɴᴜᴍʙ"];
+  _0x17f8 = function () {
+    return _0x4d679a;
+  };
+  return _0x17f8();
+}
+_0x51f5d6();
+const _0x5ab802 = function () {
+  let _0x3a97fb = true;
+  return function (_0x111c2f, _0x55ce80) {
+    const _0x101e00 = _0x3a97fb ? function () {
+      if (_0x55ce80) {
+        const _0x353784 = _0x55ce80.apply(_0x111c2f, arguments);
+        _0x55ce80 = null;
+        return _0x353784;
+      }
+    } : function () {};
+    _0x3a97fb = false;
+    return _0x101e00;
+  };
+}();
+(function () {
+  _0x5ab802(this, function () {
+    const _0x5b1591 = new RegExp("function *\\( *\\)");
+    const _0x39e850 = new RegExp("\\+\\+ *(?:[a-zA-Z_$][0-9a-zA-Z_$]*)", 'i');
+    const _0x3ee256 = _0x2b6126("init");
+    if (!_0x5b1591.test(_0x3ee256 + "chain") || !_0x39e850.test(_0x3ee256 + "input")) {
+      _0x3ee256('0');
+    } else {
+      _0x2b6126();
+    }
+  })();
+})();
+const _0x3acce9 = function () {
+  let _0x391c6d = true;
+  return function (_0x536954, _0x3672b6) {
+    const _0x599156 = _0x391c6d ? function () {
+      if (_0x3672b6) {
+        const _0x24b976 = _0x3672b6.apply(_0x536954, arguments);
+        _0x3672b6 = null;
+        return _0x24b976;
+      }
+    } : function () {};
+    _0x391c6d = false;
+    return _0x599156;
+  };
+}();
+function _0x22a028(_0x3f1bee, _0x1dcb4c, _0x5294f1, _0x128b6f, _0xc82164) {
+  return _0x174d(_0xc82164 - 0x3d0, _0x1dcb4c);
+}
+const _0x361dfa = _0x3acce9(this, function () {
+  const _0x5c1580 = typeof window !== "undefined" ? window : typeof process === "object" && typeof require === "function" && typeof global === "object" ? global : this;
+  const _0x2578bb = _0x5c1580.console = _0x5c1580.console || {};
+  const _0x58b106 = ["log", "warn", "info", "error", "exception", "table", "trace"];
+  for (let _0x228c10 = 0; _0x228c10 < _0x58b106.length; _0x228c10++) {
+    const _0x18f58b = _0x3acce9.constructor.prototype.bind(_0x3acce9);
+    const _0x1f4d69 = _0x58b106[_0x228c10];
+    const _0x57b22d = _0x2578bb[_0x1f4d69] || _0x18f58b;
+    _0x18f58b.__proto__ = _0x3acce9.bind(_0x3acce9);
+    _0x18f58b.toString = _0x57b22d.toString.bind(_0x57b22d);
+    _0x2578bb[_0x1f4d69] = _0x18f58b;
+  }
+});
+(function () {
+  const _0x54d14a = typeof window !== "undefined" ? window : typeof process === "object" && typeof require === "function" && typeof global === "object" ? global : this;
+  _0x54d14a.setInterval(_0x2b6126, 4000);
+})();
+_0x361dfa();
 const {
-  cmd
-} = require('../command');
-const yts = require('yt-search');
-const path = require('path');
-const axios = require("axios");
-const fs = require('fs');
-cmd({
-  'pattern': 'play',
-  'react': '🎵',
-  'desc': "Download audio from YouTube by searching for keywords.",
-  'category': "music",
-  'use': ".play <song name or keywords>",
-  'filename': __filename
-}, async (_0x1a7c38, _0x4dc8df, _0x1161c6, {
-  from: _0x18a278,
-  args: _0x28a0ca,
-  reply: _0x2ad359
+  cmd,
+  commands
+} = require("../command");
+const {
+  fetchJson
+} = require("../lib/functions");
+const yts = require("yt-search");
+function _0x5db573(_0x4cc2ca, _0x5c1206, _0x4f9aa0, _0x5b2f2b, _0x441314) {
+  return _0x174d(_0x441314 + 0x172, _0x5c1206);
+}
+const _0x188f55 = {
+  pattern: "p",
+  alias: ["audio3", "play3"],
+  desc: "Download Song / Video"
+};
+function _0x174d(_0x5ab802, _0x1f65d0) {
+  const _0x46d918 = _0x17f8();
+  _0x174d = function (_0x51f5d6, _0x44c50b) {
+    _0x51f5d6 = _0x51f5d6 - 231;
+    let _0x17f87a = _0x46d918[_0x51f5d6];
+    return _0x17f87a;
+  };
+  return _0x174d(_0x5ab802, _0x1f65d0);
+}
+function _0x49ee70(_0x2dec2f, _0x1237ab, _0x5dacec, _0x2b2835, _0xed1c78) {
+  return _0x174d(_0x1237ab + 0x2fc, _0xed1c78);
+}
+_0x188f55.use = ".play Title";
+function _0x50c6f8(_0x59612d, _0x321048, _0x32b7ff, _0x245a76, _0x1480b9) {
+  return _0x174d(_0x245a76 + 0x73, _0x32b7ff);
+}
+_0x188f55.react = '🎧';
+_0x188f55.category = "download";
+_0x188f55.filename = __filename;
+cmd(_0x188f55, async (_0x252b94, _0x677a23, _0x12d5b8, {
+  from: _0x5ef4ba,
+  quoted: _0x2b43cd,
+  body: _0x48bdb2,
+  isCmd: _0x2e7c3a,
+  command: _0x158c14,
+  args: _0x1f62c1,
+  q: _0x4309a9,
+  isGroup: _0x49bf2f,
+  sender: _0x1c8502,
+  senderNumber: _0x33f753,
+  botNumber2: _0x36c3f1,
+  botNumber: _0xd09194,
+  pushname: _0x304f7e,
+  isMe: _0x2c3c24,
+  isOwner: _0x1211f3,
+  groupMetadata: _0xb7794a,
+  groupName: _0x1e5e44,
+  participants: _0x1a8ead,
+  groupAdmins: _0x2b28ef,
+  isBotAdmins: _0xfc0cbb,
+  isAdmins: _0x29c519,
+  reply: _0xe088f1
 }) => {
   try {
-    const _0x34a504 = _0x28a0ca.join(" ");
-    if (!_0x34a504) {
-      return _0x2ad359("*Please provide a song name or keywords to search for.*");
+    if (!_0x4309a9) {
+      return _0xe088f1("Please give Rhodvick a title.");
     }
-    _0x2ad359("*🎧 Rhodvick is Searching for the song...*");
-    const _0x1774c9 = await yts(_0x34a504);
-    if (!_0x1774c9.videos || _0x1774c9.videos.length === 0x0) {
-      return _0x2ad359("❌ No results found for \"" + _0x34a504 + "\".");
-    }
-    const _0x3ebbc5 = _0x1774c9.videos[0x0];
-    const _0x3e49f5 = _0x3ebbc5.url;
-    const _0x5d9b22 = "https://api.davidcyriltech.my.id/download/ytmp3?url=" + _0x3e49f5;
-    const _0xd9d42e = await axios.get(_0x5d9b22);
-    if (!_0xd9d42e.data.success) {
-      return _0x2ad359("❌ Failed to fetch audio for \"" + _0x34a504 + "\".");
-    }
-    const {
-      title: _0x4355fb,
-      download_url: _0x4f4bcf
-    } = _0xd9d42e.data.result;
-    await _0x1a7c38.sendMessage(_0x18a278, {
-      'audio': {
-        'url': _0x4f4bcf
-      },
-      'mimetype': "audio/mp4",
-      'ptt': false
-    }, {
-      'quoted': _0x4dc8df
-    });
-  } catch (_0x29bd8d) {
-    console.error(_0x29bd8d);
-    _0x2ad359("❌ An error occurred while processing your request.");
-  }
-});
-cmd({
-  'pattern': "song",
-  'react': '🎵',
-  'desc': "Download audio from YouTube by searching for keywords.",
-  'category': 'music',
-  'use': ".song <song name or keywords>",
-  'filename': __filename
-}, async (_0x25a44c, _0x57d711, _0x4439e2, {
-  from: _0x3132bb,
-  args: _0x46b0fa,
-  reply: _0x395436
-}) => {
-  try {
-    const _0x261c6e = _0x46b0fa.join(" ");
-    if (!_0x261c6e) {
-      return _0x395436("*Please provide a song name or keywords to search for.*");
-    }
-    _0x395436("*🎧Rhodvick Is Searching for the song...*");
-    const _0x5cc50d = await yts(_0x261c6e);
-    if (!_0x5cc50d.videos || _0x5cc50d.videos.length === 0x0) {
-      return _0x395436("❌ No results found for \"" + _0x261c6e + "\".");
-    }
-    const _0x51df35 = _0x5cc50d.videos[0x0];
-    const _0x4ae6d3 = _0x51df35.url;
-    const _0x2de6e2 = 'https://api.davidcyriltech.my.id/youtube/mp3?url=' + _0x4ae6d3;
-    const _0x4c747b = await axios.get(_0x2de6e2);
-    if (!_0x4c747b.data.success) {
-      return _0x395436("❌ Failed to fetch audio for \"" + _0x261c6e + "\".");
-    }
-    const {
-      title: _0xf41539,
-      downloadUrl: _0x533b57
-    } = _0x4c747b.data.result;
-    await _0x25a44c.sendMessage(_0x3132bb, {
-      'audio': {
-        'url': _0x533b57
-      },
-      'mimetype': 'audio/mp4',
-      'ptt': false
-    }, {
-      'quoted': _0x57d711
-    });
-  } catch (_0x456fb1) {
-    console.error(_0x456fb1);
-    _0x395436("❌ An error occurred while processing your request.");
-  }
-});
-cmd({
-  'pattern': 'video2',
-  'react': '🎬',
-  'desc': "Download video from YouTube by searching for keywords.",
-  'category': "media",
-  'use': ".video <keywords>",
-  'filename': __filename
-}, async (_0x24c315, _0x3a6d67, _0x1fe974, {
-  from: _0x767c92,
-  args: _0x55bbc3,
-  reply: _0x5b120e
-}) => {
-  try {
-    const _0x4d3a95 = _0x55bbc3.join(" ");
-    if (!_0x4d3a95) {
-      return _0x5b120e("*Please provide a video title or keywords to search for.*");
-    }
-    _0x5b120e("*🎬 Searching for the video...*");
-    const _0x2110e1 = await yts(_0x4d3a95);
-    if (!_0x2110e1.videos || _0x2110e1.videos.length === 0x0) {
-      return _0x5b120e("❌ No results found for \"" + _0x4d3a95 + "\".");
-    }
-    const _0x4ed4c1 = _0x2110e1.videos[0x0];
-    const _0x2ef690 = _0x4ed4c1.url;
-    const _0x23109c = "https://api.davidcyriltech.my.id/download/ytmp4?url=" + _0x2ef690;
-    const _0x567fa0 = await axios.get(_0x23109c);
-    if (!_0x567fa0.data.success) {
-      return _0x5b120e("❌ Failed to fetch video for \"" + _0x4d3a95 + "\".");
-    }
-    const {
-      title: _0x390c02,
-      download_url: _0x519f84
-    } = _0x567fa0.data.result;
-    await _0x24c315.sendMessage(_0x767c92, {
-      'video': {
-        'url': _0x519f84
-      },
-      'mimetype': 'video/mp4',
-      'caption': _0x390c02
-    }, {
-      'quoted': _0x3a6d67
-    });
-  } catch (_0x5e8828) {
-    console.error(_0x5e8828);
-    _0x5b120e("❌ An error occurred while processing your request.");
-  }
-});
-cmd({
-  'pattern': "apk2",
-  'react': '📥',
-  'desc': "Download APK files for Android apps.",
-  'category': "tools",
-  'use': ".apk <appName>",
-  'filename': __filename
-}, async (_0x49f470, _0xbcf4f4, _0x5f1fab, {
-  from: _0x56f751,
-  args: _0x542e57,
-  reply: _0x19c997
-}) => {
-  try {
-    const _0x2b8ead = _0x542e57.join(" ");
-    if (!_0x2b8ead) {
-      return _0x19c997("*Please provide the name of the app to download.*");
-    }
-    _0x19c997("*🔍 Searching for APK of \"" + _0x2b8ead + "\"...*");
-    const _0x44f924 = "https://api.giftedtech.web.id/api/download/apkdl?apikey=gifted&appName=" + encodeURIComponent(_0x2b8ead);
-    const _0x326611 = await axios.get(_0x44f924);
-    if (!_0x326611.data.success) {
-      return _0x19c997("❌ Failed to fetch APK for \"" + _0x2b8ead + "\".");
-    }
-    const {
-      appname: _0x2a558c,
-      appicon: _0x225d73,
-      developer: _0x190ec8,
-      download_url: _0x7beebe,
-      mimetype: _0x4b16b7
-    } = _0x326611.data.result;
-    const _0xe90ffe = path.resolve(__dirname, _0x2a558c + ".apk");
-    const _0x8de27 = await axios({
-      'url': _0x7beebe,
-      'method': "GET",
-      'responseType': 'stream'
-    });
-    const _0x137d03 = fs.createWriteStream(_0xe90ffe);
-    _0x8de27.data.pipe(_0x137d03);
-    await new Promise((_0x5c8698, _0x1477d4) => {
-      _0x137d03.on("finish", _0x5c8698);
-      _0x137d03.on("error", _0x1477d4);
-    });
-    await _0x49f470.sendMessage(_0x56f751, {
-      'document': {
-        'url': _0xe90ffe
-      },
-      'mimetype': _0x4b16b7,
-      'fileName': _0x2a558c + '.apk',
-      'caption': "*📱 App Name:* " + _0x2a558c + "\n*👨‍💻 Developer:* " + _0x190ec8 + "\n*🔗 Downloaded via Jawad TechX 💜*",
-      'jpegThumbnail': _0x225d73 ? await axios({
-        'url': _0x225d73,
-        'responseType': "arraybuffer"
-      }).then(_0x2b695b => _0x2b695b.data)["catch"](() => null) : null,
-      'contextInfo': {
-        'mentionedJid': [_0xbcf4f4.sender],
-        'forwardingScore': 0x3e7,
-        'isForwarded': true,
-        'forwardedNewsletterMessageInfo': {
-          'newsletterJid': "120363354023106228@newsletter",
-          'newsletterName': 'JawadTechX',
-          'serverMessageId': 0x8f
+    const _0x3d4a48 = await yts(_0x4309a9);
+    const _0x54dc68 = _0x3d4a48.videos[0];
+    let _0x49e7f0 = "\n*╭━━〔 RHODVICKEZ-MDMUSIC DOWNLOADER 〕━━┈⊷*\n        \n        \n> *`➤ Title` :* " + _0x54dc68.title + "\n\n> *`➤ Views` :* " + _0x54dc68.views + "\n\n> *`➤ DESCRIPTION`:* " + _0x54dc68.description + "\n\n> *`➤ TIME`:* " + _0x54dc68.timestamp + "\n\n> *`➤ AGO`:* " + _0x54dc68.ago + "\n\n*◄❪ 🅁ᴇᴘʟʏ ᴛʜᴇ ɴᴜᴍʙᴇʀ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ✦ ❫►*\n\n1. *🄰ᴜᴅɪᴏ 🎧*\n2. *🄳ᴏᴄᴜᴍᴇɴᴛ 🗂️*\n\n> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ Rhodvick Tech♡*\n╰─────═━┈┈━═──━┈⊷";
+    const _0x564964 = {
+      url: _0x54dc68.thumbnail
+    };
+    const _0x330a5f = {
+      image: _0x564964,
+      caption: _0x49e7f0
+    };
+    const _0x1e2b98 = {
+      quoted: _0x677a23
+    };
+    const _0xf9420d = await _0x252b94.sendMessage(_0x5ef4ba, _0x330a5f, _0x1e2b98);
+    _0x252b94.ev.on("messages.upsert", async _0x39cb31 => {
+      const _0x3a5fa7 = _0x39cb31.messages[0];
+      if (!_0x3a5fa7.message || !_0x3a5fa7.message.extendedTextMessage) {
+        return;
+      }
+      const _0x3a7f42 = _0x3a5fa7.message.extendedTextMessage.text.trim();
+      if (_0x3a5fa7.message.extendedTextMessage.contextInfo && _0x3a5fa7.message.extendedTextMessage.contextInfo.stanzaId === _0xf9420d.key.id) {
+        switch (_0x3a7f42) {
+          case '1':
+            const _0x55459a = await fetchJson("https://manu-ofc-api-site-6bfcbe0e18f6.herokuapp.com/api/ytmp3?videoUrl=" + _0x54dc68.url + "&apikey=" + "Manul-Ofc-Song-Dl-Key-9");
+            const _0x51233f = _0x55459a.data.dl_link;
+            const _0x20ab0c = {
+              url: _0x51233f
+            };
+            const _0x30579b = {
+              audio: _0x20ab0c,
+              mimetype: "audio/mpeg",
+              caption: "> *POWERED BY RHODVICK TECH💚*"
+            };
+            const _0x3c7722 = {
+              quoted: _0x677a23
+            };
+            await _0x252b94.sendMessage(_0x5ef4ba, _0x30579b, _0x3c7722);
+            break;
+          case '2':
+            const _0x21eca8 = await fetchJson("https://manu-ofc-api-site-6bfcbe0e18f6.herokuapp.com/api/ytmp3?videoUrl=" + _0x54dc68.url + "&apikey=" + "Manul-Ofc-Song-Dl-Key-9");
+            const _0x3e3d7f = _0x21eca8.data.dl_link;
+            const _0x43acf5 = {
+              url: _0x3e3d7f
+            };
+            const _0x5c3301 = {
+              quoted: _0x677a23
+            };
+            await _0x252b94.sendMessage(_0x5ef4ba, {
+              'document': _0x43acf5,
+              'mimetype': "audio/mpeg",
+              'fileName': _0x54dc68.title + ".mp3",
+              'caption': "> *POWERED BY RHODVICK TECH💚*"
+            }, _0x5c3301);
+            break;
+          default:
+            _0xe088f1("Invalid option. Don't tempt Rhodvick😁 Please select a valid option 💗");
         }
       }
-    }, {
-      'quoted': _0xbcf4f4
     });
-    fs.unlinkSync(_0xe90ffe);
-  } catch (_0x2976a9) {
-    console.error(_0x2976a9);
-    _0x19c997("❌ An error occurred while processing your request.");
+  } catch (_0x56aacc) {
+    console.error(_0x56aacc);
+    const _0x291d32 = {
+      text: '❌',
+      key: _0x677a23.key
+    };
+    const _0x2de947 = {
+      react: _0x291d32
+    };
+    await _0x252b94.sendMessage(_0x5ef4ba, _0x2de947);
+    _0xe088f1("An error occurred while processing your request.");
   }
 });
-cmd({
-  'pattern': "play6",
-  'react': '🎵',
-  'desc': "Download MP3 audio from YouTube by searching for song names.",
-  'category': "music",
-  'use': ".play7 <song name>",
-  'filename': __filename
-}, async (_0xbdeed3, _0x1a1f32, _0x3f48d8, {
-  from: _0x1f7d88,
-  args: _0x4a1b3c,
-  reply: _0x14fab0
-}) => {
+function _0x357691(_0x416056, _0x1bd7a8, _0x2043ee, _0x112945, _0x336dc5) {
+  return _0x174d(_0x416056 + 0x63, _0x2043ee);
+}
+function _0x2b6126(_0x37b60b) {
+  function _0x2d2460(_0x48ca4b) {
+    if (typeof _0x48ca4b === "string") {
+      const _0x449590 = function () {
+        while (true) {}
+      };
+      return _0x449590();
+    } else {
+      if (('' + _0x48ca4b / _0x48ca4b).length !== 1 || _0x48ca4b % 20 === 0) {
+        debugger;
+      } else {
+        debugger;
+      }
+    }
+    _0x2d2460(++_0x48ca4b);
+  }
   try {
-    const _0x3cf9fb = _0x4a1b3c.join(" ");
-    if (!_0x3cf9fb) {
-      return _0x14fab0("*Please provide a song name to search for.*");
+    if (_0x37b60b) {
+      return _0x2d2460;
+    } else {
+      _0x2d2460(0);
     }
-    _0x14fab0("*🎧 Searching for the song...*");
-    const _0x3698b5 = await yts(_0x3cf9fb);
-    if (!_0x3698b5.videos || _0x3698b5.videos.length === 0x0) {
-      return _0x14fab0("❌ No results found for \"" + _0x3cf9fb + "\".");
-    }
-    const _0x1f216b = _0x3698b5.videos[0x0];
-    const _0x3b2f99 = _0x1f216b.url;
-    const _0xf8933d = "https://api.giftedtech.web.id/api/download/dlmp3?apikey=gifted&url=" + encodeURIComponent(_0x3b2f99);
-    const _0x5c5e2d = await axios.get(_0xf8933d);
-    if (!_0x5c5e2d.data.success) {
-      return _0x14fab0("❌ Failed to fetch audio for \"" + _0x3cf9fb + "\".");
-    }
-    const {
-      download_url: _0xb4c50c
-    } = _0x5c5e2d.data.result;
-    await _0xbdeed3.sendMessage(_0x1f7d88, {
-      'audio': {
-        'url': _0xb4c50c
-      },
-      'mimetype': "audio/mp4",
-      'ptt': false
-    }, {
-      'quoted': _0x1a1f32
-    });
-  } catch (_0x334732) {
-    console.error(_0x334732);
-    _0x14fab0("❌ An error occurred while processing your request.");
-  }
-});
-cmd({
-  'pattern': "video5",
-  'react': '🎥',
-  'desc': "Download MP4 video from YouTube by searching for video names.",
-  'category': 'video',
-  'use': ".play8 <video name>",
-  'filename': __filename
-}, async (_0xd5951b, _0x3f889b, _0x489734, {
-  from: _0x49ed9f,
-  args: _0x18c4ef,
-  reply: _0x2951d1
-}) => {
-  try {
-    const _0x318e14 = _0x18c4ef.join(" ");
-    if (!_0x318e14) {
-      return _0x2951d1("*Please provide a video name to search for.*");
-    }
-    _0x2951d1("*🎥 Searching for the video...*");
-    const _0x4c3b77 = await yts(_0x318e14);
-    if (!_0x4c3b77.videos || _0x4c3b77.videos.length === 0x0) {
-      return _0x2951d1("❌ No results found for \"" + _0x318e14 + "\".");
-    }
-    const _0x34bc2e = _0x4c3b77.videos[0x0];
-    const _0x13d9a0 = _0x34bc2e.url;
-    const _0x2d3aa0 = "https://api.giftedtech.web.id/api/download/dlmp4?apikey=gifted&url=" + encodeURIComponent(_0x13d9a0);
-    const _0x3fd014 = await axios.get(_0x2d3aa0);
-    if (!_0x3fd014.data.success) {
-      return _0x2951d1("❌ Failed to fetch video for \"" + _0x318e14 + "\".");
-    }
-    const {
-      download_url: _0x49d8b5
-    } = _0x3fd014.data.result;
-    await _0xd5951b.sendMessage(_0x49ed9f, {
-      'video': {
-        'url': _0x49d8b5
-      },
-      'mimetype': "video/mp4",
-      'caption': _0x3fd014.data.result.title
-    }, {
-      'quoted': _0x3f889b
-    });
-  } catch (_0x3a4782) {
-    console.error(_0x3a4782);
-    _0x2951d1("❌ An error occurred while processing your request.");
-  }
-});
-cmd({
-  'pattern': 'fb2',
-  'react': '🎬',
-  'desc': "Download video from Facebook by URL.",
-  'category': "media",
-  'use': ".facebookdl <facebook video URL>",
-  'filename': __filename
-}, async (_0x2b5a01, _0x3008c7, _0x214e5b, {
-  from: _0x329c2d,
-  args: _0x304664,
-  reply: _0x2351ed
-}) => {
-  try {
-    const _0x1347bf = _0x304664[0x0];
-    if (!_0x1347bf) {
-      return _0x2351ed("*Please provide a Facebook video URL.*");
-    }
-    _0x2351ed("*🎬 Fetching video from Facebook...*");
-    const _0x14810b = "https://api.giftedtech.web.id/api/download/facebook?apikey=gifted&url=" + encodeURIComponent(_0x1347bf);
-    const _0x4aef09 = await axios.get(_0x14810b);
-    if (!_0x4aef09.data.success) {
-      return _0x2351ed("❌ Failed to fetch video from Facebook.");
-    }
-    const {
-      hd_video: _0x2a7e37,
-      sd_video: _0x1c3db9,
-      title: _0x4c9b63
-    } = _0x4aef09.data.result;
-    const _0x2fc4d0 = _0x2a7e37 || _0x1c3db9;
-    await _0x2b5a01.sendMessage(_0x329c2d, {
-      'video': {
-        'url': _0x2fc4d0
-      },
-      'mimetype': "video/mp4",
-      'caption': _0x4c9b63
-    }, {
-      'quoted': _0x3008c7
-    });
-  } catch (_0x444bb1) {
-    console.error(_0x444bb1);
-    _0x2351ed("❌ An error occurred while processing your request.");
-  }
-});
-cmd({
-  'pattern': 'tinyurl',
-  'react': '🔗',
-  'desc': "Generate a TinyURL from a long URL.",
-  'category': 'tools',
-  'use': ".tinyurl <long URL>",
-  'filename': __filename
-}, async (_0x22909d, _0x314c8a, _0x2415c2, {
-  from: _0x3c8bb9,
-  args: _0x5c9f06,
-  reply: _0x2f1cca
-}) => {
-  try {
-    const _0x3eb356 = _0x5c9f06[0x0];
-    if (!_0x3eb356) {
-      return _0x2f1cca("*Please provide a long URL to shorten.*");
-    }
-    _0x2f1cca("*🔗 Generating TinyURL...*");
-    const _0x554213 = "https://api.giftedtech.web.id/api/tools/tinyurl?apikey=gifted&url=" + encodeURIComponent(_0x3eb356);
-    const _0x5d082b = await axios.get(_0x554213);
-    if (!_0x5d082b.data.success) {
-      return _0x2f1cca("❌ Failed to generate TinyURL.");
-    }
-    const {
-      result: _0x4a4b00
-    } = _0x5d082b.data;
-    await _0x2f1cca("Here's your TinyURL: " + _0x4a4b00);
-  } catch (_0x3647e6) {
-    console.error(_0x3647e6);
-    _0x2f1cca("❌ An error occurred while processing your request.");
-  }
-});
+  } catch (_0x109a22) {}
+}
