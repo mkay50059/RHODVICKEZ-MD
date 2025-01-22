@@ -736,7 +736,7 @@ cmd({
     if (!_0x57e0db) {
       return await _0x101606("*Need a YouTube URL!*");
     }
-    const _0xc734ff = await fetchJson("https://api.dreaded.site/api/ytdl/audio?url=" + _0x57e0db);
+    const _0xc734ff = await fetchJson("https://api.davidcyriltech.my.id/download/ytmp3?url=$l=" + _0x57e0db);
     const _0x370ff4 = _0xc734ff.result.download_url;
     await _0x1c3cfa.sendMessage(_0x205c00, {
       'audio': {
