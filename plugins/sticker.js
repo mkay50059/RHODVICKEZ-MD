@@ -1,68 +1,80 @@
-const config = require('../config');
-const { Sticker, StickerTypes } = require('wa-sticker-formatter');
 const { cmd } = require('../command');
-const { getRandom } = require('../lib/functions');
+const crypto = require('crypto');
+const webp = require('node-webpmux');
+const axios = require('axios');
+const fs = require('fs-extra');
+const { exec } = require('child_process');
+const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter");
+const Config = require('../config');
 
-var imgmsg = '';
-if (config.LANG === 'SI') imgmsg = 'Please mention a photo!!';
-else imgmsg = 'ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴘʜᴏᴛᴏ ғᴏʀ sᴛɪᴄᴋᴇʀ!';
+// Take Sticker 
 
-var descg = '';
-if (config.LANG === 'SI') descg = 'converts the replied photo to a sticker.';
-else descg = 'ɪᴛ ᴄᴏɴᴠᴇʀᴛs ʏᴏᴜʀ ʀᴇᴘʟɪᴇᴅ ᴘʜᴏᴛᴏ ᴛᴏ sᴛɪᴄᴋᴇʀ.';
+cmd(
+    {
+        pattern: 'take',
+        alias: ['rename', 'stake'],
+        desc: 'Create a sticker with a custom pack name.',
+        category: 'sticker',
+        use: '<reply media or URL>',
+        filename: __filename,
+    },
+    async (conn, mek, m, { quoted, args, q, reply, from }) => {
+        if (!mek.quoted) return reply(`*Reply to any sticker.*`);
+        if (!q) return reply(`*Please provide a pack name using .take <packname>*`);
 
-cmd({
-    pattern: 'sticker',
-    react: '🤹‍♀️',
-    alias: ['s', 'ss', 'stic'],
-    desc: descg,
-    category: 'convert',
-    use: '.sticker <Reply to image>',
-    filename: __filename
-}, async (conn, mek, m, { from, reply, isCmd, command, args, q, isGroup, pushname }) => {
-    try {
-        const isQuotedImage = m.quoted && (m.quoted.type === 'imageMessage' || (m.quoted.type === 'viewOnceMessage' && m.quoted.msg.type === 'imageMessage'));
-        const isQuotedSticker = m.quoted && m.quoted.type === 'stickerMessage';
+        let mime = mek.quoted.mtype;
+        let pack = q;
 
-        if ((m.type === 'imageMessage') || isQuotedImage) {
-            const nameJpg = getRandom('.jpg');
-            const imageBuffer = isQuotedImage ? await m.quoted.download() : await m.download();
-            await require('fs').promises.writeFile(nameJpg, imageBuffer);
-
-            let sticker = new Sticker(nameJpg, {
-                pack: pushname, // The pack name
-                author: 'silva spark', // The author name
-                type: q.includes('--crop') || q.includes('-c') ? StickerTypes.CROPPED : StickerTypes.FULL,
-                categories: ['🤩', '🎉'], // The sticker category
-                id: '12345', // The sticker id
-                quality: 75, // The quality of the output file
-                background: 'transparent', // The sticker background color (only for full stickers)
+        if (mime === "imageMessage" || mime === "stickerMessage") {
+            let media = await mek.quoted.download();
+            let sticker = new Sticker(media, {
+                pack: pack, 
+                type: StickerTypes.FULL,
+                categories: ["🤩", "🎉"],
+                id: "12345",
+                quality: 75,
+                background: 'transparent',
             });
-
             const buffer = await sticker.toBuffer();
-            return conn.sendMessage(from, { sticker: buffer }, { quoted: mek });
-        } else if (isQuotedSticker) {
-            const nameWebp = getRandom('.webp');
-            const stickerBuffer = await m.quoted.download();
-            await require('fs').promises.writeFile(nameWebp, stickerBuffer);
-
-            let sticker = new Sticker(nameWebp, {
-                pack: pushname, // The pack name
-                author: 'silva spark', // The author name
-                type: q.includes('--crop') || q.includes('-c') ? StickerTypes.CROPPED : StickerTypes.FULL,
-                categories: ['🤩', '🎉'], // The sticker category
-                id: '12345', // The sticker id
-                quality: 75, // The quality of the output file
-                background: 'transparent', // The sticker background color (only for full stickers)
-            });
-
-            const buffer = await sticker.toBuffer();
-            return conn.sendMessage(from, { sticker: buffer }, { quoted: mek });
+            return conn.sendMessage(mek.chat, { sticker: buffer }, { quoted: mek });
         } else {
-            return await reply(imgmsg);
+            return reply("*Uhh, Don't temp Rhodvick Please reply to an image.*");
         }
-    } catch (e) {
-        reply('Error !!');
-        console.error(e);
     }
-});
+);
+
+//Sticker create 
+
+cmd(
+    {
+        pattern: 'sticker',
+        alias: ['s', 'stickergif'],
+        desc: 'Create a sticker from an image, video, or URL.',
+        category: 'sticker',
+        use: '<reply media or URL>',
+        filename: __filename,
+    },
+    async (conn, mek, m, { quoted, args, q, reply, from }) => {
+        if (!mek.quoted) return reply(`*Dont tempt Rhodvick, Reply to any Image or Video, Sir.*`);
+        let mime = mek.quoted.mtype;
+        let pack = Config.STICKER_NAME || "Rhodvick Tech";
+        
+        if (mime === "imageMessage" || mime === "stickerMessage") {
+            let media = await mek.quoted.download();
+            let sticker = new Sticker(media, {
+                pack: pack, 
+                type: StickerTypes.FULL,
+                categories: ["🤩", "🎉"], 
+                id: "12345",
+                quality: 75, 
+                background: 'transparent',
+            });
+            const buffer = await sticker.toBuffer();
+            return conn.sendMessage(mek.chat, { sticker: buffer }, { quoted: mek });
+        } else {
+            return reply("*Uhh, Please reply to an image.*");
+        }
+    }
+);
+
+// JawadTechX
