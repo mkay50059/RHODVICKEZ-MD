@@ -1,108 +1,53 @@
-const axios = require("axios");
+const { cmd } = require("../command");
 const yts = require("yt-search");
-const { youtube } = require("btch-downloader");
-const { cmd } = require('../command');
+const axios = require("axios");
+
+// temporary songs downloader
 
 cmd({
-  pattern: 'audio3',
-  alias: ['spotify', "ytmusic", "play"],
+  pattern: "play",
+  aliases: 'song'
   react: '🎵',
-  desc: "Fetch audio from Spotify or YouTube",
-  category: "media",
+  desc: "Download audio from YouTube by searching for keywords (using API 2).",
+  category: "music",
+  use: ".play1 <song name or keywords>",
   filename: __filename
-}, async (client, message, details, context) => {
-  const { q, from, reply } = context;
-
-  if (!q) {
-    return reply("Please provide a title or link (Spotify/YouTube)!");
-  }
-
-  reply("RHODVICK TECH Fetching audio... 🎧");
-
-  let spotifySent = false;
-  let youtubeSent = false;
-
+}, async (conn, mek, msg, { from, args, reply }) => {
   try {
-    // Fetch from Spotify
-    const spotifyResponse = await axios.get(
-      `https://spotifyapi.caliphdev.com/api/search/tracks?q=${encodeURIComponent(q)}`
-    );
-    const spotifyTrack = spotifyResponse.data?.[0]; // Safely access first track
-
-    if (spotifyTrack) {
-      const trackStream = await axios({
-        url: `https://spotifyapi.caliphdev.com/api/download/track?url=${encodeURIComponent(spotifyTrack.url)}`,
-        method: "GET",
-        responseType: 'stream'
-      });
-
-      if (trackStream.headers["content-type"]?.includes("audio/mpeg")) {
-        await client.sendMessage(from, {
-          audio: trackStream.data,
-          mimetype: "audio/mpeg",
-          contextInfo: {
-            externalAdReply: {
-              title: spotifyTrack.title,
-              body: "RHODVICK TECH 🥰💖: SPOTIFY",
-              mediaType: 1,
-             sourceUrl: 'https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N',
-              thumbnailUrl: https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg,
-          renderLargerThumbnail: true
-            }
-          }
-        });
-        spotifySent = true;
-      } else {
-        console.log("Spotify stream not in audio/mpeg format.");
-      }
-    } else {
-      console.log("No Spotify track found.");
+    const searchQuery = args.join(" ");
+    if (!searchQuery) {
+      return reply("*Please give Rhodvick a song name or keywords to search for.*");
     }
-  } catch (error) {
-    console.error("Spotify Error:", error.message);
-  }
 
-  try {
-    // Fetch from YouTube
-    const youtubeSearchResults = await yts(q);
-    const youtubeVideo = youtubeSearchResults.videos[0];
+    reply("*🎧Rhodvick is Searching for the song...*");
 
-    if (youtubeVideo && youtubeVideo.seconds < 3600) { // Video duration < 1 hour
-      const youtubeAudio = await youtube(youtubeVideo.url);
-
-      if (youtubeAudio?.mp3) {
-        await client.sendMessage(from, {
-          audio: { url: youtubeAudio.mp3 },
-          mimetype: "audio/mpeg",
-          contextInfo: {
-            externalAdReply: {
-              title: youtubeVideo.title,
-              body: "RHODVICK TECH🥰: YOUTUBE",
-              mediaType: 1,
-              sourceUrl: 'https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N',
-              thumbnailUrl: https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg,
-          renderLargerThumbnail: true
-            }
-          }
-        });
-        youtubeSent = true;
-      } else {
-        console.log("Failed to fetch YouTube audio.");
-      }
-    } else {
-      console.log("No suitable YouTube results found.");
+    const searchResults = await yts(searchQuery);
+    if (!searchResults.videos || searchResults.videos.length === 0) {
+      return reply(`❌ No results found for "${searchQuery}".`);
     }
-  } catch (error) {
-    console.error("YouTube Error:", error.message);
-  }
 
-  if (!spotifySent && !youtubeSent) {
-    reply("Failed to fetch audio from both Spotify and YouTube.");
-  } else if (spotifySent && youtubeSent) {
-    reply("Both Spotify and YouTube audio sent successfully.");
-  } else if (spotifySent) {
-    reply("RHODVICK TECH: Spotify audio sent successfully.");
-  } else if (youtubeSent) {
-    reply("RHODVICK TECH: YouTube audio sent successfully.");
+    const firstResult = searchResults.videos[0];
+    const videoUrl = firstResult.url;
+
+    // Call the API to download the audio
+    const apiUrl = `https://api.davidcyriltech.my.id/download/ytmp3?url=${videoUrl}`;
+    const response = await axios.get(apiUrl);
+    if (!response.data.success) {
+      return reply(`❌ Failed to fetch audio for "${searchQuery}".`);
+    }
+
+    const { title, download_url } = response.data.result;
+
+    // Send the audio file
+    await conn.sendMessage(from, {
+      audio: { url: download_url },
+      mimetype: 'audio/mp4',
+      ptt: false
+    }, { quoted: mek });
+
+    reply(`✅ *${title}* has been downloaded successfully!`);
+  } catch (error) {
+    console.error(error);
+    reply("❌ An error occurred while processing your request.");
   }
 });
