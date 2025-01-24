@@ -101,6 +101,6 @@ cmd({
   } else if (spotifySent) {
     reply("RHODVICK TECH: Spotify audio sent successfully.");
   } else if (youtubeSent) {
-    reply("RHODVICK TECH: YouTube audio sent successfully.");
+    reply("Audio sent successfully by Rhodvick.");
   }
 });
