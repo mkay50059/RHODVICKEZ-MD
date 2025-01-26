@@ -55,8 +55,8 @@ cmd({
   }
 });
 cmd({
-  'pattern': 'play2',
-  'alias': ["song2", 'ytplay3'],
+  'pattern': 'play',
+  'alias': ["song", 'ytplay3'],
   'react': '🔄',
   'desc': "Download audio from YouTube by searching for keywords.",
   'category': "music",
@@ -72,7 +72,7 @@ cmd({
     if (!_0x316468) {
       return _0xd2fbaa("*Please give Rhodvick an audio titl or url*");
     }
-    _0xd2fbaa("> © Rhodvick is Sᴇɴᴅɪɴɢ Yᴏᴜʀ Sᴏɴɢ Wᴀɪᴛ...❄️");
+    _0xd2fbaa("> © Rhodvick is Sᴇɴᴅɪɴɢ Yᴏᴜʀ Sᴏɴɢ please Wᴀɪᴛ...❄️");
     const _0x2644f6 = await yts(_0x316468);
     if (!_0x2644f6.videos || _0x2644f6.videos.length === 0x0) {
       return _0xd2fbaa("❌ No results found for \"" + _0x316468 + "\".");
