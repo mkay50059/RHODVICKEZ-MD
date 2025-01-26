@@ -2,106 +2,102 @@ function hi() {
   console.log("Hello World!");
 }
 hi();
-function hi() {
-  console.log("Hello World!");
-}
-hi();
 const {
   cmd,
   commands
-} = require("../command");
+} = require('../command');
 const yts = require("yt-search");
 const axios = require("axios");
 cmd({
-  'pattern': "video2",
-  'alias': ["ytvid2", "ytv2", "ytvideo2"],
-  'react': '⏳',
+  'pattern': 'video3',
+  'alias': ["ytvid3", 'ytv3', 'ytvideo3'],
+  'react': '🔄',
   'desc': "Download videos from YouTube by searching for keywords.",
   'category': "video",
   'use': ".vidx <keywords>",
   'filename': __filename
-}, async (_0xe2f6b0, _0xc0bd08, _0x122f70, {
-  from: _0x4938ec,
-  args: _0x545fb3,
-  reply: _0x290209
+}, async (_0xd6d2a7, _0x52dd09, _0x274922, {
+  from: _0x58af10,
+  args: _0x30587b,
+  reply: _0x1967fe
 }) => {
   try {
-    const _0x32deeb = _0x545fb3.join(" ");
-    if (!_0x32deeb) {
-      return _0x290209("*Please provide a video tital or url*");
+    const _0x501cea = _0x30587b.join(" ");
+    if (!_0x501cea) {
+      return _0x1967fe("*Please give Rhodvick a video titl or url*");
     }
-    _0x290209("> © Rhodvick Is ɢᴇɴᴇʀᴀᴛɪɴɢ the ᴠɪᴅᴇᴏ ᴘʟᴇᴀsᴇ Wᴀɪᴛ...");
-    const _0x5e6ce9 = await yts(_0x32deeb);
-    if (!_0x5e6ce9.videos || _0x5e6ce9.videos.length === 0x0) {
-      return _0x290209("❌ No results found for \"" + _0x32deeb + "\".");
+    _0x1967fe("> © Rhodvick is Sᴇɴᴅɪɴɢ Yᴏᴜʀ ᴠɪᴅᴇᴏ Wᴀɪᴛ... ❄️");
+    const _0x1ce220 = await yts(_0x501cea);
+    if (!_0x1ce220.videos || _0x1ce220.videos.length === 0x0) {
+      return _0x1967fe("❌ No results found for \"" + _0x501cea + "\".");
     }
-    const _0x8cec1e = _0x5e6ce9.videos[0x0];
-    const _0x5ce282 = _0x8cec1e.url;
-    const _0x2af2d2 = "https://api.giftedtech.web.id/api/download/dlmp4?apikey=gifted&url=" + _0x5ce282;
-    const _0x442320 = await axios.get(_0x2af2d2);
-    if (!_0x442320.data.success) {
-      return _0x290209("❌ Failed to fetch video for \"" + _0x32deeb + "\".");
+    const _0x26f941 = _0x1ce220.videos[0x0];
+    const _0x5920cf = _0x26f941.url;
+    const _0x2d1d85 = "https://api.davidcyriltech.my.id/youtube/mp3?url=" + _0x5920cf;
+    const _0x4e01c1 = await axios.get(_0x2d1d85);
+    if (!_0x4e01c1.data.success) {
+      return _0x1967fe("❌ Failed to fetch video for \"" + _0x501cea + "\".");
     }
     const {
-      download_url: _0x503033
-    } = _0x442320.data.result;
-    await _0xe2f6b0.sendMessage(_0x4938ec, {
+      download_url: _0x1b649b
+    } = _0x4e01c1.data.result;
+    await _0xd6d2a7.sendMessage(_0x58af10, {
       'video': {
-        'url': _0x503033
+        'url': _0x1b649b
       },
       'mimetype': "video/mp4"
     }, {
-      'quoted': _0xc0bd08
+      'quoted': _0x52dd09
     });
-  } catch (_0x3da04a) {
-    console.error(_0x3da04a);
-    _0x290209("❌ An error occurred while processing your request.");
+  } catch (_0x2dd777) {
+    console.error(_0x2dd777);
+    _0x1967fe("❌ An error occurred while processing your request.");
   }
 });
 cmd({
-  'pattern': "play2",
-  'alias': ["yta2", "ytplay2"],
-  'react': '⏳',
+  'pattern': 'play3',
+  'alias': ["song3", 'ytplay3'],
+  'react': '🔄',
   'desc': "Download audio from YouTube by searching for keywords.",
   'category': "music",
   'use': ".playx <keywords>",
   'filename': __filename
-}, async (_0x1014d1, _0x44f57d, _0x281123, {
-  from: _0x22ebe3,
-  args: _0x445711,
-  reply: _0x377273
+}, async (_0x5ccd79, _0xea2e4a, _0x258b5e, {
+  from: _0x440036,
+  args: _0x45f6cb,
+  reply: _0xd2fbaa
 }) => {
   try {
-    const _0x356223 = _0x445711.join(" ");
-    if (!_0x356223) {
-      return _0x377273("*Please provide a audio title or url*");
+    const _0x316468 = _0x45f6cb.join(" ");
+    if (!_0x316468) {
+      return _0xd2fbaa("*Please give Rhodvick an audio titl or url*");
     }
-    _0x377273(">© Rhodvick is downloading the song, please wait...");
-    const _0x271698 = await yts(_0x356223);
-    if (!_0x271698.videos || _0x271698.videos.length === 0x0) {
-      return _0x377273("❌ No results found for \"" + _0x356223 + "\".");
+    _0xd2fbaa("> © Rhodvick is Sᴇɴᴅɪɴɢ Yᴏᴜʀ Sᴏɴɢ Wᴀɪᴛ...❄️");
+    const _0x2644f6 = await yts(_0x316468);
+    if (!_0x2644f6.videos || _0x2644f6.videos.length === 0x0) {
+      return _0xd2fbaa("❌ No results found for \"" + _0x316468 + "\".");
     }
-    const _0x4360a6 = _0x271698.videos[0x0];
-    const _0x57ffbc = _0x4360a6.url;
-    const _0x3af9d4 = "https://api.giftedtech.web.id/api/download/dlmp3?apikey=gifted&url=" + _0x57ffbc;
-    const _0x1d283c = await axios.get(_0x3af9d4);
-    if (!_0x1d283c.data.success) {
-      return _0x377273("❌ Failed to fetch audio for \"" + _0x356223 + "\".");
+    const _0x1381c4 = _0x2644f6.videos[0x0];
+    const _0x4be45 = _0x1381c4.url;
+    const _0x21c154 = "https://api.davidcyriltech.my.id/download/ytmp3?url=" + _0x4be45;
+    const _0x2e3133 = await axios.get(_0x21c154);
+    if (!_0x2e3133.data.success) {
+      return _0xd2fbaa("❌ Failed to fetch audio for \"" + _0x316468 + "\".");
     }
     const {
-      download_url: _0x3a6e3b
-    } = _0x1d283c.data.result;
-    await _0x1014d1.sendMessage(_0x22ebe3, {
+      download_url: _0x5e3552
+    } = _0x2e3133.data.result;
+    await _0x5ccd79.sendMessage(_0x440036, {
       'audio': {
-        'url': _0x3a6e3b
+        'url': _0x5e3552
       },
       'mimetype': "audio/mp4",
       'ptt': false
     }, {
-      'quoted': _0x44f57d
+      'quoted': _0xea2e4a
     });
-  } catch (_0x274411) {
-    console.error(_0x274411);
-    _0x377273("❌ An error occurred while processing your request.");
+  } catch (_0x1c8cbd) {
+    console.error(_0x1c8cbd);
+    _0xd2fbaa("❌ An error occurred while processing your request.");
   }
 });
