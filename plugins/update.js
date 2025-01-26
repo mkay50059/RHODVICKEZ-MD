@@ -18,12 +18,12 @@ cmd({
     if (!fs.existsSync('./.git')) { 
       console.log("Initializing git repository..."); 
       execSync('git init'); 
-      execSync('git remote add origin https://github.com/Rhodvick/RHODVICKEZ-MD.git'); 
+      execSync('git remote add origin https://www.github.com/Rhodvick/RHODVICKEZ-MD.git'); 
     } else { 
       console.log("Checking existing remotes..."); 
       const remotes = execSync('git remote').toString().split('\n').filter(r => r.trim()); 
       if (!remotes.includes('origin')) { 
-        execSync('git remote add origin https://github.com/Rhodvick/RHODVICKEZ-MD.git'); 
+        execSync('git remote add origin https://www.github.com/Rhodvick/RHODVICKEZ-MD.git'); 
       } 
     }
     
@@ -47,13 +47,13 @@ cmd({
     const originCommit = execSync(`git rev-parse origin/${defaultBranch}`).toString().trim();
     
     if (localCommit === originCommit) { 
-      await conn.sendMessage(from, { text: '*✅ Subzero Bot is already up to date!*' }, { quoted: mek });
+      await conn.sendMessage(from, { text: '*✅ Rhodvick Bot is already up to date!*' }, { quoted: mek });
     } else { 
       console.log("Resetting to origin state..."); 
       execSync(`git reset --hard origin/${defaultBranch}`); 
       console.log("Pulling updates..."); 
       execSync(`git pull origin ${defaultBranch}`); 
-      await conn.sendMessage(from, { text: '*✅ Subzero Bot updated successfully!*' }, { quoted: mek });
+      await conn.sendMessage(from, { text: '*✅ Rhodvick Bot updated successfully!*' }, { quoted: mek });
     }
   } catch (error) { 
     console.error(error); 
