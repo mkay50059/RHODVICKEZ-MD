@@ -33,6 +33,8 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words
+ANTICALL: process.env.ANTICALL || "false",
+// false or true for anticalls 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
