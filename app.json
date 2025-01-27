@@ -70,6 +70,12 @@
       "value": "true"
     }, 
 
+        "AUTO_STATUS_REACT": {
+      "description": "status auto like or react make it true or false.",
+      "required": false,
+      "value": "true"
+    }, 
+
     "AUTO_STATUS_REPLY": {
       "description": "Make it true for auto reply msg on status seen.",
       "required": true,
