@@ -8,6 +8,7 @@ const {
 } = require('../command');
 const yts = require("yt-search");
 const axios = require("axios");
+
 cmd({
   'pattern': 'video3',
   'alias': ["ytvid3", 'ytv3', 'ytvideo3'],
@@ -24,7 +25,7 @@ cmd({
   try {
     const _0x501cea = _0x30587b.join(" ");
     if (!_0x501cea) {
-      return _0x1967fe("*Please give Rhodvick a video titl or url*");
+      return _0x1967fe("*Please give Rhodvick a video title or url*");
     }
     _0x1967fe("> © Rhodvick is Sᴇɴᴅɪɴɢ Yᴏᴜʀ ᴠɪᴅᴇᴏ Wᴀɪᴛ... ❄️");
     const _0x1ce220 = await yts(_0x501cea);
@@ -45,7 +46,8 @@ cmd({
       'video': {
         'url': _0x1b649b
       },
-      'mimetype': "video/mp4"
+      'mimetype': "video/mp4",
+      'caption': `Source: [WhatsApp Channel](https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N)\n![Thumbnail](https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg)`
     }, {
       'quoted': _0x52dd09
     });
@@ -54,6 +56,7 @@ cmd({
     _0x1967fe("❌ An error occurred while processing your request.");
   }
 });
+
 cmd({
   'pattern': 'play',
   'alias': ["song", 'ytplay3'],
@@ -70,7 +73,7 @@ cmd({
   try {
     const _0x316468 = _0x45f6cb.join(" ");
     if (!_0x316468) {
-      return _0xd2fbaa("*Please give Rhodvick an audio titl or url*");
+      return _0xd2fbaa("*Please give Rhodvick an audio title or url*");
     }
     _0xd2fbaa("> © Rhodvick is Sᴇɴᴅɪɴɢ Yᴏᴜʀ Sᴏɴɢ please Wᴀɪᴛ...❄️");
     const _0x2644f6 = await yts(_0x316468);
@@ -92,7 +95,8 @@ cmd({
         'url': _0x5e3552
       },
       'mimetype': "audio/mp4",
-      'ptt': false
+      'ptt': false,
+      'caption': `Source: [WhatsApp Channel](https://whatsapp.com/channel/0029VabySTR9Bb5upWFhMv1N)\n![Thumbnail](https://i.ibb.co/wJBxKV4/74421a3c5d94ac0a.jpg)`
     }, {
       'quoted': _0xea2e4a
     });
